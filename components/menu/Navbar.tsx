@@ -1,26 +1,28 @@
-import MenuItems from "@/lib/data";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import LanguageSwitcher from "../LanguageSwitcher";
+import { getMenuItems } from "@/lib/MenuItems";
 
 const Navbar = () => {
+	const menuItems = getMenuItems();
 	return (
 		<>
-			<nav>
-				<ul className="flex gap-5 font-inter font-medium">
-					{MenuItems.map((item: MenuItem, index: number) => (
+			<nav className="navbar">
+				<ul className="hidden md:flex flex-center gap-5 font-inter font-medium">
+					{menuItems.map((item, index: number) => (
 						<li key={index}>
 							<Link
 								href={item.path ?? "#"}
 								className={cn("navbar__item", {
-									"navbar__item--button": item.type === "button",
+									navbar__item__button: item.type === "button",
 								})}
 							>
 								{item.name}
 							</Link>
 						</li>
 					))}
-					//? Add Language Switcher here
 				</ul>
+				<LanguageSwitcher />
 			</nav>
 		</>
 	);
