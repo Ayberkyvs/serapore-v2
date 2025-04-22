@@ -1,0 +1,65 @@
+{
+	"Header": {
+		"logoSrc": "/logo_main_en.webp",
+		"menu": {
+			"about": "About Us",
+			"services": "Services",
+			"products": "Products",
+			"gallery": "Gallery",
+			"contact": "Contact Us"
+		}
+	},
+	"Hero": {
+		"heroTitle": "A trusted force behind the most resilient manufacturers.",
+		"heroDescription": "For over three decades, SeraPore has empowered leading manufacturers with high-performance molds and machines built to last. Our deep-rooted expertise in pressure casting enables us to deliver unmatched precision, reliability, and long-term value across every production line.",
+		"heroButtons": {
+			"seeProducts": "See products",
+			"ourServices": "Our services",
+			"companyPresentation": "Company presentation"
+		}
+	},
+	"AboutUs": {
+		"sectionHeading": {
+			"title": "Know your seller, like you know your bussiness.",
+			"subtitle": "About Us"
+		},
+		"description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services.",
+		"experiences": {
+			"1": {
+				"title": "34+",
+				"subtitle": "Years of Working Experience",
+				"description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field"
+			},
+			"2": {
+				"title": "1500+",
+				"subtitle": "Resin Mold Expertise",
+				"description": "Our pressure die casting team has produced over 1,500 resin molds."
+			},
+			"3": {
+				"title": "35+",
+				"subtitle": "Custom Casting Machinery",
+				"description": "Our pressure casting machine production and commissioning team has manufactured and commissioned 35 sanitary ceramic forming machines with various capabilities."
+			},
+			"4": {
+				"title": "1200+",
+				"subtitle": "Innovative Mold Designs",
+				"description": "Our team is on the production lines by designing new models at the levels of 1200 pressure casting molds he has successfully commissioned it."
+			}
+		},
+		"extended": {
+			"mission": {
+				"title": "Our Mission",
+				"description": "Our mission is to simplify the sanitary ware production process, enhance efficiency, and support the success of our clients. At the core of this mission lies the production of original and high-performance high-pressure casting machines and molds, providing tailored design support and consultancy for manufacturing, and being a reliable partner in machine maintenance and repair. With customer satisfaction at the center of our approach, we strive to deliver a combination of quality, innovation, and sustainability."
+			},
+			"vision": {
+				"title": "Our Vision",
+				"description": "Our vision is to become a global leader in the ceramic and sanitary ware industry, and to be the most trusted and innovative solution partner in the field of high-pressure casting machines and molds. As an organization committed to continuous improvement, sustainability, and excellence, we aim to provide our customers with the highest quality products and services. By delivering the most effective and efficient production solutions to companies involved in the global manufacturing and sales of sanitary ware, we strive to play a vital role in their success."
+			},
+			"partners": "Our Partners",
+			"more": {
+				"title": "Learn More About Us",
+				"buttonText": "View Company Presentation"
+			}
+		}
+	}
+}

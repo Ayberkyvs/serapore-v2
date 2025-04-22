@@ -1,0 +1,65 @@
+{
+	"Header": {
+		"logoSrc": "/logo_main.webp",
+		"menu": {
+			"about": "Hakkımızda",
+			"services": "Hizmetler",
+			"products": "Ürünler",
+			"gallery": "Galeri",
+			"contact": "Bize Ulaş"
+		}
+	},
+	"Hero": {
+		"heroTitle": "En dayanıklı üreticilerin arkasındaki güvenilir güç.",
+		"heroDescription": "Otuz yılı aşkın süredir SeraPore, dayanıklılığıyla öne çıkan yüksek performanslı kalıp ve makineleriyle öncü üreticilere güç katıyor. Basınçlı döküm konusundaki köklü uzmanlığımız sayesinde, her üretim hattında rakipsiz hassasiyet, güvenilirlik ve uzun vadeli değer sunuyoruz.",
+		"heroButtons": {
+			"seeProducts": "Ürünleri Gör",
+			"ourServices": "Hizmetlerimiz",
+			"companyPresentation": "Şirket Tanıtım Dosyası"
+		}
+	},
+	"AboutUs": {
+		"sectionHeading": {
+			"title": "Satıcınızı, işinizi bildiğiniz kadar iyi tanıyın.",
+			"subtitle": "Hakkımızda"
+		},
+		"description": "SeraPore Vitrifiye Makine ve Kalıpları, alanında 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir. 1989'dan bu yana sürekli büyüyen ve gelişen ekibimiz, basınçlı döküm kalıpları ve basınçlı döküm makineleri üretiminde öncü bir rol üstlenmiştir. Bu geniş bilgi birikimi ve tecrübe ile 1500'ün üzerinde kalıp ve 35'in üzerinde makineyi hayata geçirdik. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, vitrifiye üretim sürecinin her aşamasında müşterilerimize destek sağlıyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunmaktayız.",
+		"experiences": {
+			"1": {
+				"title": "34+",
+				"subtitle": "Yıllık Çalışma Tecrübesi",
+				"description": "SeraPore Vitrifiye Makine ve Kalıpları, alanında 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir."
+			},
+			"2": {
+				"title": "1500+",
+				"subtitle": "Reçine Kalıp Uzmanlığı",
+				"description": "Basınçlı döküm ekibimiz, 1500'ün üzerinde reçine kalıbı üretmiştir."
+			},
+			"3": {
+				"title": "35+",
+				"subtitle": "Özel Döküm Makineleri",
+				"description": "Basınçlı döküm makinesi üretim ve devreye alma ekibimiz, farklı yeteneklere sahip 35 vitrifiye şekillendirme makinesini üretmiş ve devreye almıştır."
+			},
+			"4": {
+				"title": "1200+",
+				"subtitle": "Yenilikçi Kalıp Tasarımları",
+				"description": "Ekibimiz, üretim hatlarında 1200'ün üzerinde basınçlı döküm kalıbı tasarlayarak başarıyla devreye almıştır."
+			}
+		},
+		"extended": {
+			"mission": {
+				"title": "Misyonumuz",
+				"description": "Misyonumuz, vitrifiye üretim sürecini sadeleştirmek, verimliliği artırmak ve müşterilerimizin başarısını desteklemektir. Bu misyonun merkezinde, özgün ve yüksek performanslı basınçlı döküm makineleri ile kalıpların üretimi, üretime özel tasarım desteği ve danışmanlık sunulması, ayrıca makine bakım ve onarımında güvenilir bir çözüm ortağı olmak yer almaktadır. Müşteri memnuniyetini merkezimize alarak; kaliteyi, yeniliği ve sürdürülebilirliği bir arada sunmayı hedefliyoruz."
+			},
+			"vision": {
+				"title": "Vizyonumuz",
+				"description": "Vizyonumuz, seramik ve vitrifiye sektöründe küresel bir lider olmak ve yüksek basınçlı döküm makineleri ile kalıplar alanında en güvenilir ve yenilikçi çözüm ortağı haline gelmektir. Sürekli gelişim, sürdürülebilirlik ve mükemmellik ilkelerine bağlı bir kuruluş olarak, müşterilerimize en yüksek kalitede ürün ve hizmetler sunmayı amaçlıyoruz. Vitrifiye ürünlerinin küresel ölçekte üretim ve satışını gerçekleştiren firmalara en etkili ve verimli üretim çözümlerini sunarak, onların başarısında önemli bir rol üstlenmeyi hedefliyoruz."
+			},
+			"partners": "Çözüm Ortaklarımız",
+			"more": {
+				"title": "Hakkımızda Daha Fazlası",
+				"buttonText": "Firma Sunumunu Görüntüle"
+			}
+		}
+	}
+}
