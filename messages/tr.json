@@ -98,5 +98,12 @@
 			}
 		},
 		"hintDescription": "Keşfetmek için sürükleyin, daha fazlasını görmek için tıklayın"
-	}
+	},
+	"HighlightedProducts": {
+		"sectionHeading": {
+			"title": "İmza Makinelerimiz",
+			"subtitle": "Öne Çıkan Ürünler"
+		}
+	},
+	"hintDescription": "Keşfetmek için sürükleyin"
 }

@@ -98,5 +98,12 @@
 			}
 		},
 		"hintDescription": "Drag to Explore & Click to See More"
+	},
+	"HighlightedProducts": {
+		"sectionHeading": {
+			"title": "Our Signature Machines",
+			"subtitle": "Featured Products"
+		},
+		"hintDescription": "Drag to Explore"
 	}
 }

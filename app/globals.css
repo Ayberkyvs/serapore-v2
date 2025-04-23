@@ -242,6 +242,9 @@
 	.our-partners__item__image {
 		@apply flex rounded-sm shadow-md sm:max-w-[120px] sm:max-h-[120px] aspect-square hover:scale-3d;
 	}
+	.highlighted-products {
+		@apply w-full h-fit;
+	}
 }
 
 /* .dark {
