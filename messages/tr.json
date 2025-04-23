@@ -103,7 +103,19 @@
 		"sectionHeading": {
 			"title": "İmza Makinelerimiz",
 			"subtitle": "Öne Çıkan Ürünler"
-		}
+		},
+		"hintDescription": "Keşfetmek için sürükleyin"
 	},
-	"hintDescription": "Keşfetmek için sürükleyin"
+	"ContactUsSection": {
+		"sectionHeading": {
+			"title": "İhtiyacınızı Bize Bildirin",
+			"subtitle": "Bizimle İletişime Geçin"
+		},
+		"contactForm": {
+			"name": "Ad",
+			"email": "E-posta",
+			"message": "Mesaj",
+			"submitButton": "Mesaj Gönder"
+		}
+	}
 }

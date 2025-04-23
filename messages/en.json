@@ -105,5 +105,17 @@
 			"subtitle": "Featured Products"
 		},
 		"hintDescription": "Drag to Explore"
+	},
+	"ContactUsSection": {
+		"sectionHeading": {
+			"title": "Tell Us What You Need",
+			"subtitle": "Contact Us"
+		},
+		"contactForm": {
+			"name": "Name",
+			"email": "Email",
+			"message": "Message",
+			"submitButton": "Send Message"
+		}
 	}
 }

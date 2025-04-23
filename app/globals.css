@@ -245,6 +245,15 @@
 	.highlighted-products {
 		@apply w-full h-fit;
 	}
+	.contact-us-section {
+		@apply w-full h-fit;
+	}
+	.form {
+		@apply flex flex-col gap-5;
+	}
+	.form__label {
+		@apply mb-2;
+	}
 }
 
 /* .dark {
