@@ -189,7 +189,10 @@
 
 @layer components {
 	.grid-system {
-		@apply grid xs:grid-cols-2 sm:grid-cols-4 md:grid-cols-8 lg:grid-cols-12;
+		@apply grid xs:grid-cols-2 sm:grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-5;
+	}
+	.grid-system-col-end {
+		@apply xs:col-end-2 sm:col-end-4 md:col-end-9 lg:col-end-13;
 	}
 	.header {
 		@apply glass-effect fixed top-0 z-[99] w-full h-[90px] xs:h-[100px] py-6 border-b border-neutral-200;
@@ -256,6 +259,9 @@
 	}
 	.cta {
 		@apply w-full h-fit bg-[radial-gradient(circle_at_center,_#E1EAFB,_#ffffff)];
+	}
+	.footer {
+		@apply w-full h-fit;
 	}
 }
 

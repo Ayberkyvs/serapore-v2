@@ -120,5 +120,34 @@
 	},
 	"CallToAction": {
 		"title": "Ready when you are. Let’s build something exceptional."
+	},
+	"Footer": {
+		"links": {
+			"socialMedia": {
+				"title": "You can find us on",
+				"description": "Speak to our team via social media platforms.",
+				"youtube": "Watch our videos!",
+				"whatsapp": "Message us on WhatsApp.",
+				"linkedin": "Follow our latest works."
+			},
+			"numbers": {
+				"title": "Call Us",
+				"description": "Call our team Mon-Fri from 9am to 5pm",
+				"1": "+90 532 421 48 16",
+				"2": "+90 552 483 66 70",
+				"3": "+90 262 606 10 64"
+			},
+			"emails": {
+				"title": "Mail Us",
+				"description": "Let’s bring your ideas to life. Send us a message and we’ll get back to you shortly.",
+				"1": "ertugrul@serapore.com.tr",
+				"2": "mustafa@serapore.com.tr"
+			},
+			"address": {
+				"title": "Visit Us",
+				"description": "Want to see where the magic happens? Come visit us!",
+				"address": "Hacı Halil mah.1226 sok. No:11 Daire 17 Gebze Kocaeli Türkiye"
+			}
+		}
 	}
 }

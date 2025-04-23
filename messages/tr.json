@@ -120,5 +120,34 @@
 	},
 	"CallToAction": {
 		"title": "Hazır olduğunda buradayız. Haydi birlikte olağanüstü bir şey inşa edelim."
+	},
+	"Footer": {
+		"links": {
+			"socialMedia": {
+				"title": "Bizi buradan bulabilirsiniz",
+				"description": "Ekibimizle sosyal medya platformları üzerinden iletişime geçin.",
+				"youtube": "Videolarımızı izleyin!",
+				"whatsapp": "Bize WhatsApp’tan yazın.",
+				"linkedin": "Son çalışmalarımızı takip edin."
+			},
+			"numbers": {
+				"title": "Bizi Arayın",
+				"description": "Ekibimizi Pazartesi-Cuma 09:00 - 17:00 saatleri arasında arayabilirsiniz",
+				"1": "+90 532 421 48 16",
+				"2": "+90 552 483 66 70",
+				"3": "+90 262 606 10 64"
+			},
+			"emails": {
+				"title": "Bize Yazın",
+				"description": "Fikirlerinizi hayata geçirelim. Bize bir mesaj gönderin, en kısa sürede size dönüş yapalım.",
+				"1": "ertugrul@serapore.com.tr",
+				"2": "mustafa@serapore.com.tr"
+			},
+			"address": {
+				"title": "Bizi Ziyaret Edin",
+				"description": "Büyünün nerede gerçekleştiğini görmek ister misiniz? Bizi ziyaret edin!",
+				"address": "Hacı Halil mah. 1226 sok. No:11 Daire 17 Gebze Kocaeli Türkiye"
+			}
+		}
 	}
 }

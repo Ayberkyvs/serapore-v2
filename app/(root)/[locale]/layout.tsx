@@ -5,6 +5,7 @@ import { routing } from "@/app/i18n/routing";
 import type { Metadata } from "next";
 import { Geist, Inter } from "next/font/google";
 import "@/app/globals.css";
+import Footer from "@/components/layout/Footer";
 
 const geistSans = Geist({
 	variable: "--font-geist",
@@ -38,6 +39,7 @@ const RootLayout = async ({
 				<body className={`${geistSans.variable} ${inter.variable} antialiased`}>
 					<Header />
 					<NextIntlClientProvider>{children}</NextIntlClientProvider>
+					<Footer />
 				</body>
 			</html>
 		</>
