@@ -254,6 +254,9 @@
 	.form__label {
 		@apply mb-2;
 	}
+	.cta {
+		@apply w-full h-fit bg-[radial-gradient(circle_at_center,_#E1EAFB,_#ffffff)];
+	}
 }
 
 /* .dark {

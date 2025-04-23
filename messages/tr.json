@@ -117,5 +117,8 @@
 			"message": "Mesaj",
 			"submitButton": "Mesaj Gönder"
 		}
+	},
+	"CallToAction": {
+		"title": "Hazır olduğunda buradayız. Haydi birlikte olağanüstü bir şey inşa edelim."
 	}
 }

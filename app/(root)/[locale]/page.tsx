@@ -5,6 +5,7 @@ import OurPartners from "@/components/sections/OurPartners";
 import OurServices from "@/components/sections/OurServices";
 import HighlightedProducts from "@/components/sections/HighlightedProducts";
 import ContactUsSection from "../../../components/sections/ContactUsSection";
+import CTA from "@/components/sections/CallToAction";
 
 export default function Home() {
 	return (
@@ -17,6 +18,7 @@ export default function Home() {
 			<OurServices />
 			<HighlightedProducts />
 			<ContactUsSection />
+			<CTA />
 		</>
 	);
 }
