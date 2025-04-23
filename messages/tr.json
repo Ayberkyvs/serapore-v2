@@ -61,5 +61,13 @@
 				"buttonText": "Firma Sunumunu Görüntüle"
 			}
 		}
+	},
+	"OurPartners": {
+		"sectionHeading": {
+			"title": "Bizi üretim yolculuklarına dahil edenler",
+			"subtitle": "Ortaklarımız"
+		},
+		"description": "Kesinlik, dayanıklılık ve uzun vadeli ortaklığa değer veren sektör liderleriyle iş birliği yapmaktan gurur duyuyoruz. Burada yer alan her isim, ortak bir vizyonu ve üretimde mükemmeliyete olan bağlılığı temsil etmektedir.",
+		"partnersText": "Roca | Vitra | Serel | Kohler | Catalano İtalya | Axa İtalya | GSI İtalya | Uno Seramik İtalya | American Standart | Cercanit Poland | Suudi Ceramic | Harsa-İsrail | Hatria | Univeral Rusya | Ekokerama Uzbekistan | Grandart Uzbekistan | Gozo Uzbekistan | Kleopatra Mısır | Lessico Mısır | Alvit | Newarc | Bocchi | UgraKeram Rusya | Uno Ceramica İtalya | Laufen-Poland | Hatria İtalya | OttoBagno | Bien Türkiye"
 	}
 }

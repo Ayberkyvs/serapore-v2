@@ -12,3 +12,10 @@ export const partnerLogos = [
 	"roca",
 	"hatria",
 ];
+
+export const partnerLogosForGrid = [
+	["newarc", "alvit"],
+	["hatria", "roca", "american_standart", "cersanit"],
+	["bien", "vitra", "kohler"],
+	["otto_bagno", "serel", "saudi", "alvit"],
+];

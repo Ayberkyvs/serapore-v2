@@ -230,6 +230,15 @@
 	.aboutus {
 		@apply w-full h-fit;
 	}
+	.our-partners {
+		@apply w-full h-fit;
+	}
+	.our-partners__item {
+		@apply flex flex-col gap-2 xs:gap-5 size-fit;
+	}
+	.our-partners__item__image {
+		@apply flex rounded-sm shadow-md sm:max-w-[120px] sm:max-h-[120px] aspect-square hover:scale-3d;
+	}
 }
 
 /* .dark {
