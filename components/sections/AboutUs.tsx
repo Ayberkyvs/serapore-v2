@@ -6,6 +6,7 @@ import InfiniteCarouselSection from "./InfiniteCarouselSection";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import OverlappingCards from "../animations/overlapping-cards";
+import FadeIn from "../animations/fade-in";
 
 const AboutUs = ({ extended }: { extended?: boolean }) => {
 	const t = useTranslations("AboutUs");
@@ -48,19 +49,27 @@ const AboutUs = ({ extended }: { extended?: boolean }) => {
 								title={t("sectionHeading.title")}
 								subtitle={t("sectionHeading.subtitle")}
 							/>
-							<p className="mb-8">{t("description")}</p>
+							<FadeIn direction="down" delay={0.2}>
+								<p className="mb-8">{t("description")}</p>
+							</FadeIn>
 							<div className="flex flex-col gap-8 w-full h-fit">
 								{experiences?.map((experience, index: number) => (
-									<div className="flex flex-col gap-5 size-fit" key={index}>
-										<div className="flex flex-center gap-2 w-fit h-[50px]">
-											{experience.icon}
-											<div className="flex flex-col h-full">
-												<h6 className="h6">{experience.title}</h6>
-												<span>{experience.subtitle}</span>
+									<FadeIn
+										direction="down"
+										delay={0.2 + index * 0.1}
+										key={index}
+									>
+										<div className="flex flex-col gap-5 size-fit">
+											<div className="flex flex-center gap-2 w-fit h-[50px]">
+												{experience.icon}
+												<div className="flex flex-col h-full">
+													<h6 className="h6">{experience.title}</h6>
+													<span>{experience.subtitle}</span>
+												</div>
 											</div>
+											<p>{experience.description}</p>
 										</div>
-										<p>{experience.description}</p>
-									</div>
+									</FadeIn>
 								))}
 							</div>
 						</div>
@@ -70,11 +79,15 @@ const AboutUs = ({ extended }: { extended?: boolean }) => {
 							<div className="flex flex-col sm:flex-row w-full h-fit gap-5">
 								<div className="flex flex-col gap-5 w-full h-fit">
 									<SectionHeading title={t("extended.mission.title")} />
-									<p>{t("extended.mission.description")}</p>
+									<FadeIn direction="down" delay={0.2}>
+										<p>{t("extended.mission.description")}</p>
+									</FadeIn>
 								</div>
 								<div className="flex flex-col gap-5 w-full h-fit">
 									<SectionHeading title={t("extended.vision.title")} />
-									<p>{t("extended.mission.description")}</p>
+									<FadeIn direction="down" delay={0.2}>
+										<p>{t("extended.mission.description")}</p>
+									</FadeIn>
 								</div>
 							</div>
 							<div className="flex flex-col gap-5 w-full h-fit">
@@ -83,12 +96,18 @@ const AboutUs = ({ extended }: { extended?: boolean }) => {
 							</div>
 							<div className="flex flex-col gap-5 w-full h-fit">
 								<SectionHeading title={t("extended.more.title")} />
-								<Link href="/serapore.pdf" target="_blank" className="size-fit">
-									<Button variant="link">
-										<Eye />
-										{t("extended.more.buttonText")}
-									</Button>
-								</Link>
+								<FadeIn direction="down" delay={0.2}>
+									<Link
+										href="/serapore.pdf"
+										target="_blank"
+										className="size-fit"
+									>
+										<Button variant="link">
+											<Eye />
+											{t("extended.more.buttonText")}
+										</Button>
+									</Link>
+								</FadeIn>
 							</div>
 						</div>
 					)}
