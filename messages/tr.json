@@ -69,5 +69,34 @@
 		},
 		"description": "Kesinlik, dayanıklılık ve uzun vadeli ortaklığa değer veren sektör liderleriyle iş birliği yapmaktan gurur duyuyoruz. Burada yer alan her isim, ortak bir vizyonu ve üretimde mükemmeliyete olan bağlılığı temsil etmektedir.",
 		"partnersText": "Roca | Vitra | Serel | Kohler | Catalano İtalya | Axa İtalya | GSI İtalya | Uno Seramik İtalya | American Standart | Cercanit Poland | Suudi Ceramic | Harsa-İsrail | Hatria | Univeral Rusya | Ekokerama Uzbekistan | Grandart Uzbekistan | Gozo Uzbekistan | Kleopatra Mısır | Lessico Mısır | Alvit | Newarc | Bocchi | UgraKeram Rusya | Uno Ceramica İtalya | Laufen-Poland | Hatria İtalya | OttoBagno | Bien Türkiye"
+	},
+	"OurServices": {
+		"sectionHeading": {
+			"title": "İşe yarayan çözümler.",
+			"subtitle": "Hizmetlerimiz"
+		},
+		"cards": {
+			"1": {
+				"title": "Yüksek Basınçlı Döküm Makinesi İmalatı",
+				"description": "Yüksek Basınçlı Döküm Makinelerimiz; 3 parçalı Klozet’ten Dikey, Gidişli ve Tezgah Üstü Lavabo makinelerine kadar geniş bir ürün yelpazesi sunar. Bu makineler, farklı ihtiyaçlara ve üretim süreçlerine çözüm sağlar."
+			},
+			"2": {
+				"title": "Reçine Kalıp Üretimi",
+				"description": "Reçine Kalıp üretimimiz; SACMI makinelerine uygun Klozet Kalıpları ve 25 cm’den 160 cm’ye kadar geniş bir Lavabo Kalıbı yelpazesi sunar. Bu kalıplar, vitrifiye ürünlerinin kalitesini artırmak ve üretim hızını yükseltmek için tasarlanmıştır."
+			},
+			"3": {
+				"title": "Tasarım Desteği",
+				"description": "Tasarım Desteği hizmetimiz, yeni tasarımların basınçlı döküme uygun hale getirilmesi, alçı kalıptan reçineli döküm üretimine geçiş sürecinde danışmanlık sunar. Ayrıca, kalıp üretiminde kullanılan şifreleme teknikleriyle reçine kalıpların ömrünü ve verimliliğini artırmak için teknik destek sağlıyoruz."
+			},
+			"4": {
+				"title": "Makine Bakım Desteği",
+				"description": "Makine Bakım Desteği hizmetimiz; her marka Basınçlı Döküm Makinesi, Sırlama Robotu ve Kurutma Kabinlerinin bakım ve onarımını kapsar. Bu hizmet, makinelerinizin kusursuz çalışmasını sağlamak ve üretim sürecindeki aksamaları en aza indirmek amacıyla sunulmaktadır."
+			},
+			"5": {
+				"title": "Üretim Verimliliği Artırma Çalışmaları",
+				"description": "• Basınçlı Döküm Makinelerinde verimlilik artırma desteği, • Klasik Döküm Makinelerinde verimlilik artırma desteği, • Tüm üretim hatlarında verimlilik artırma destekleri"
+			}
+		},
+		"hintDescription": "Keşfetmek için sürükleyin, daha fazlasını görmek için tıklayın"
 	}
 }

@@ -69,5 +69,34 @@
 		},
 		"description": "We’re proud to collaborate with industry leaders who value precision, durability, and long-term partnership. Each name here represents a shared vision and a commitment to excellence in manufacturing.",
 		"partnersText": "Roca | Vitra | Serel | Kohler | Catalano İtalya | Axa İtalya | GSI İtalya | Uno Seramik İtalya | American Standart | Cercanit Poland | Suudi Ceramic | Harsa-İsrail | Hatria | Univeral Rusya | Ekokerama Uzbekistan | Grandart Uzbekistan | Gozo Uzbekistan | Kleopatra Mısır | Lessico Mısır | Alvit | Newarc | Bocchi | UgraKeram Rusya | Uno Ceramica İtalya | Laufen-Poland | Hatria İtalya | OttoBagno | Bien Türkiye"
+	},
+	"OurServices": {
+		"sectionHeading": {
+			"title": "Solutions that work.",
+			"subtitle": "Our Services"
+		},
+		"cards": {
+			"1": {
+				"title": "High-Pressure Casting Machine Manufacturing",
+				"description": "Our High Pressure Casting Machines, From 3-piece Toilet Bowl to Vertical A wide range of products, from Reciprocating to Countertop Sink machine it offers production capacity. These machines meet different needs and production provides solutions for their processes."
+			},
+			"2": {
+				"title": "Resin Mold Production",
+				"description": "Our Resin Mold production includes Toilet Bowl Molds suitable for SACMI Machines and a wide range of Sink Molds from 25 cm to 160 cm, including it offers a range of products. These molds are designed to improve the quality of vitrified products and it is ideal for increasing the production speed."
+			},
+			"3": {
+				"title": "Design Support",
+				"description": "Our Design Support service, pressure casting of new designs making it suitable for molds and pressurized from the production of gypsum molds provides consultancy during the transition process to casting production. In addition, the resin mold life and efficiency with encryption techniques in mold production we offer technical support to increase it."
+			},
+			"4": {
+				"title": "Machine Maintenance Support",
+				"description": "Our Machine Maintenance Support service, every brand of Pressure Casting Maintenance and maintenance of Machines, Glazing Robots and Drying Chambers it covers the repair. This service allows your machine to work perfectly to maintain its condition and minimize disruptions in the production process it aims to."
+			},
+			"5": {
+				"title": "Production Efficiency Improvement Efforts",
+				"description": "• Support for increasing productivity in Pressure Casting Machines, • Support for increasing productivity in Classic Casting Machines, * Supports to increase productivity in all production lines"
+			}
+		},
+		"hintDescription": "Drag to Explore & Click to See More"
 	}
 }
