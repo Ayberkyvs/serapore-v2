@@ -125,10 +125,10 @@ const Footer = () => {
 							<span className="small underline">
 								{new Date().getFullYear()}
 							</span>{" "}
-							SeraPore Machinery Industry And Trade Ltd, All rights reserved.
+							{t("copyright")}
 						</p>
 						<p className="small flex gap-2 items-center">
-							powered by{" "}
+							{t("poweredBy")}{" "}
 							<Link href={"https://ayberkyavas.com"} target="_blank">
 								<img
 									src="https://ayberkyavas.com/logo.svg"
