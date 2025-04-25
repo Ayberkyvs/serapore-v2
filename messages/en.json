@@ -111,10 +111,21 @@
 			"title": "Tell Us What You Need",
 			"subtitle": "Contact Us"
 		},
-		"contactForm": {
+		"form": {
 			"name": "Name",
+			"lastname": "Last Name",
 			"email": "Email",
-			"message": "Message",
+			"company": "Company",
+			"message": "Your Message",
+			"services": {
+				"title": "Services",
+				"1": "Manufacturing",
+				"2": "Resin Mold Production",
+				"3": "Design Support",
+				"4": "Machine Maintenance",
+				"5": "Production Efficiency",
+				"6": "Other"
+			},
 			"submitButton": "Send Message"
 		}
 	},

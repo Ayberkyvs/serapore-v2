@@ -10,15 +10,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useState, useEffect } from "react";
 import { Loader } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const services = [
-	"Manufacturing",
-	"Resin Mold Production",
-	"Design Support",
-	"Machine Maintenance",
-	"Production Efficiency",
-	"Other",
-];
+import { useTranslations } from "next-intl";
 
 const formSchema = z.object({
 	name: z.string().min(2, "Please enter at least 2 characters."),
@@ -106,12 +98,23 @@ export default function ContactForm() {
 		localStorage.setItem("lastSubmitTime", new Date().getTime().toString());
 	};
 
+	const t = useTranslations("ContactUsSection.form")
+
+	const services = [
+		t("services.1"),
+		t("services.2"),
+		t("services.3"),
+		t("services.4"),
+		t("services.5"),
+		t("services.6"),
+	];
+
 	return (
 		<form onSubmit={handleSubmit(handleFormSubmit)} className="form">
 			<div className="grid grid-cols-2 gap-4">
 				<div>
 					<Label htmlFor="name" className="form__label">
-						Name*
+						{t("name")}*
 					</Label>
 					<Input id="name" {...register("name")} />
 					{errors.name && (
@@ -122,7 +125,7 @@ export default function ContactForm() {
 				</div>
 				<div>
 					<Label htmlFor="lastname" className="form__label">
-						Last Name*
+						{t("lastname")}*
 					</Label>
 					<Input id="lastname" {...register("lastname")} />
 					{errors.lastname && (
@@ -135,7 +138,7 @@ export default function ContactForm() {
 
 			<div>
 				<Label htmlFor="email" className="form__label">
-					Email*
+				{t("email")}*
 				</Label>
 				<Input id="email" type="email" {...register("email")} />
 				{errors.email && (
@@ -147,7 +150,7 @@ export default function ContactForm() {
 
 			<div>
 				<Label htmlFor="company" className="form__label">
-					Company
+					{t("company")}
 				</Label>
 				<Input id="company" {...register("company")} />
 				{errors.company && (
@@ -159,7 +162,7 @@ export default function ContactForm() {
 
 			<div>
 				<Label htmlFor="message" className="form__label">
-					Your Message*
+					{t("message")}*
 				</Label>
 				<Textarea
 					id="message"
@@ -176,7 +179,7 @@ export default function ContactForm() {
 			</div>
 
 			<div>
-				<Label className="form__label">Services</Label>
+				<Label className="form__label">{t("services.title")}*</Label>
 				<div className="grid grid-cols-2 gap-2">
 					{services.map((service) => (
 						<label
@@ -206,7 +209,7 @@ export default function ContactForm() {
 				{isSubmitting ? (
 					<span className="animate-spin">{<Loader />}</span>
 				) : (
-					"Send Message"
+					t("submitButton")
 				)}
 			</Button>
 			{submitCount >= 2 && (

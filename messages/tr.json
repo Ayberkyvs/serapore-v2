@@ -111,12 +111,24 @@
 			"title": "İhtiyacınızı Bize Bildirin",
 			"subtitle": "Bizimle İletişime Geçin"
 		},
-		"contactForm": {
+			"form": {
 			"name": "Ad",
+			"lastname": "Soyad",
 			"email": "E-posta",
-			"message": "Mesaj",
+			"company": "Şirket",
+			"message": "Mesajınız",
+			"services": {
+				"title": "Hizmetler",
+				"1": "Üretim",
+				"2": "Reçine Kalıp Üretimi",
+				"3": "Tasarım Desteği",   
+				"4": "Makine Bakımı",   
+				"5": "Üretim Verimliliği",
+				"6": "Diğer"  
+			},
 			"submitButton": "Mesaj Gönder"
-		}
+			}
+
 	},
 	"CallToAction": {
 		"title": "Hazır olduğunda buradayız. Haydi birlikte olağanüstü bir şey inşa edelim."
