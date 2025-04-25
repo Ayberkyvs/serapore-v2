@@ -115,7 +115,9 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className="flex justify-between w-full border-t py-6 border-neutral-300">
-						<Logo className="w-[140px] h-[39px] xs:w-[170px] xs:h-[48px]" />
+						<Link href="/" scroll>
+							<Logo className="w-[140px] h-[39px] xs:w-[170px] xs:h-[48px]" />
+						</Link>
 						<LanguageSwitcher />
 					</div>
 					<div className="flex justify-between w-full h-fit flex-wrap gap-5 bg-accent-200 p-2 rounded-sm">
