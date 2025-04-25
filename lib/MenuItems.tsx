@@ -17,7 +17,7 @@ export const getMenuItems = () => {
 			icon: null,
 		},
 		{
-			path: "/Products",
+			path: "/products",
 			name: t("menu.products"),
 			type: "link",
 			icon: null,

@@ -12,7 +12,7 @@ const Navbar = () => {
 					{menuItems.map((item, index: number) => (
 						<li key={index}>
 							<Link
-								href={item.path ?? "#"}
+								href={item.path.toLowerCase() ?? "#"}
 								className={cn("navbar__item", {
 									navbar__item__button: item.type === "button",
 								})}
