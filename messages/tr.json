@@ -10,15 +10,15 @@
 		}
 	},
 	"Hero": {
-		"heroTitle": "En dayanıklı üreticilerin arkasındaki güvenilir güç.",
-		"heroDescription": "Otuz yılı aşkın süredir SeraPore, dayanıklılığıyla öne çıkan yüksek performanslı kalıp ve makineleriyle öncü üreticilere güç katıyor. Basınçlı döküm konusundaki köklü uzmanlığımız sayesinde, her üretim hattında rakipsiz hassasiyet, güvenilirlik ve uzun vadeli değer sunuyoruz.",
-		"heroButtons": {
+		"title": "En dayanıklı üreticilerin arkasındaki güvenilir güç.",
+		"description": "Otuz yılı aşkın süredir SeraPore, dayanıklılığıyla öne çıkan yüksek performanslı kalıp ve makineleriyle öncü üreticilere güç katıyor. Basınçlı döküm konusundaki köklü uzmanlığımız sayesinde, her üretim hattında rakipsiz hassasiyet, güvenilirlik ve uzun vadeli değer sunuyoruz.",
+		"buttons": {
 			"seeProducts": "Ürünleri Gör",
 			"ourServices": "Hizmetlerimiz",
 			"companyPresentation": "Şirket Tanıtım Dosyası"
 		}
 	},
-	"AboutUs": {
+	"AboutUsSection": {
 		"sectionHeading": {
 			"title": "Satıcınızı, işinizi bildiğiniz kadar iyi tanıyın.",
 			"subtitle": "Hakkımızda"
@@ -121,10 +121,10 @@
 				"title": "Hizmetler",
 				"1": "Üretim",
 				"2": "Reçine Kalıp Üretimi",
-				"3": "Tasarım Desteği",   
-				"4": "Makine Bakımı",   
+				"3": "Tasarım Desteği",
+				"4": "Makine Bakımı",
 				"5": "Üretim Verimliliği",
-				"6": "Diğer"  
+				"6": "Diğer"
 			},
 			"submitButton": "Mesaj Gönder"
 			}
@@ -163,5 +163,42 @@
 		},
 		"copyright": "SeraPore Makine Sanayi ve Ticaret Ltd. Şti., Tüm hakları saklıdır.",
 		"poweredBy": "tarafından"
-	}
+	},
+	
+		"AboutUs": {
+		  "hero": {
+			"title": "Hakkımızda",
+			"description": "30 yılı aşkın sektör deneyimiyle SeraPore, basınçlı döküm kalıpları ve makineleri üretiminde güvenilir bir lider haline gelmiştir. Küresel seramik üreticilerinin değişen ihtiyaçlarını karşılayan, uzun ömürlü ve yüksek hassasiyetli ekipmanlar sunma konusunda uzmanız. Yenilikçilik, mühendislikte mükemmeliyet ve müşteri memnuniyetine bağlılığımız kim olduğumuzu ve ne yaptığımızı tanımlar."
+		  }
+		},
+		"Services": {
+		  "hero": {
+			"title": "Hizmetler",
+			"description": "SeraPore, seramik endüstrisindeki üreticilere özel olarak tasarlanmış kapsamlı profesyonel hizmetler sunar. Özel kalıp geliştirmeden makine optimizasyonuna, kurulumdan eğitime ve teknik desteğe kadar tüm çözümlerimiz; üretim verimliliğini artırmak, duruş sürelerini azaltmak ve her partide tutarlı kalite sağlamak üzere tasarlanmıştır."
+		  }
+		},
+		"Products": {
+		  "hero": {
+			"title": "Ürünler",
+			"description": "Ürün portföyümüzde yüksek performanslı basınçlı döküm kalıpları, dayanıklı makineler ve uzun vadeli endüstriyel kullanım için tasarlanmış gelişmiş çözümler yer almaktadır. Her ürünümüz, hassas mühendislik, sorunsuz entegrasyon ve üstün dayanıklılık konusundaki taahhüdümüzü yansıtarak üreticilerin operasyonlarını kolaylaştırmasına ve hızla değişen pazarda rekabetçi kalmasına yardımcı olur."
+		  },
+				"sectionHeading": {
+					"title": "Tüm Üretimlerimiz",
+					"subtitle": "Ürünlerimiz"
+				}
+		},
+		"Gallery": {
+		  "hero": {
+			"title": "Galeri",
+			"description": "SeraPore’un çalışmalarındaki kaliteyi ve yeniliği yakından inceleyin. Galerimizde basınçlı döküm kalıp ve makinelerimizin gerçek dünya uygulamaları, müşteri kurulumları, üretim mükemmeliyeti ve detaylı işçiliği yer almakta—yetkinliklerimizi ve başarı hikâyelerimizi görsel bir yolculukla sunmaktadır."
+		  }
+		},
+		"ContactUs": {
+		  "hero": {
+			"title": "İletişim",
+			"description": "Üretiminizi bir üst seviyeye taşımaya hazır mısınız? Proje ihtiyaçlarınızı görüşmek, teklif almak veya basınçlı döküm çözümlerimiz hakkında daha fazla bilgi edinmek için SeraPore’un uzman ekibiyle iletişime geçin. Kişiselleştirilmiş rehberlik, teknik uzmanlık ve sektör lideri yeniliklerle sizi desteklemeye hazırız."
+		  }
+		}
+	  
+	  
 }

@@ -10,15 +10,15 @@
 		}
 	},
 	"Hero": {
-		"heroTitle": "A trusted force behind the most resilient manufacturers.",
-		"heroDescription": "For over three decades, SeraPore has empowered leading manufacturers with high-performance molds and machines built to last. Our deep-rooted expertise in pressure casting enables us to deliver unmatched precision, reliability, and long-term value across every production line.",
-		"heroButtons": {
+		"title": "A trusted force behind the most resilient manufacturers.",
+		"description": "For over three decades, SeraPore has empowered leading manufacturers with high-performance molds and machines built to last. Our deep-rooted expertise in pressure casting enables us to deliver unmatched precision, reliability, and long-term value across every production line.",
+		"buttons": {
 			"seeProducts": "See products",
 			"ourServices": "Our services",
 			"companyPresentation": "Company presentation"
 		}
 	},
-	"AboutUs": {
+	"AboutUsSection": {
 		"sectionHeading": {
 			"title": "Know your seller, like you know your bussiness.",
 			"subtitle": "About Us"
@@ -162,5 +162,41 @@
 		},
 		"copyright": "SeraPore Machinery Industry And Trade Ltd, All rights reserved.",
 		"poweredBy": "powered by"
-	}
+	},
+	
+		"AboutUs": {
+		  "hero": {
+			"title": "About Us",
+			"description": "With over 30 years of industry expertise, SeraPore has become a trusted leader in the manufacturing of pressure casting molds and machines. We specialize in delivering long-lasting, high-precision equipment that meets the evolving demands of global ceramic producers. Our commitment to innovation, engineering excellence, and customer satisfaction defines who we are and what we do."
+		  }
+		},
+		"Services": {
+		  "hero": {
+			"title": "Services",
+			"description": "SeraPore offers a comprehensive range of professional services tailored to the needs of manufacturers in the ceramics industry. From custom mold development and machine optimization to installation, training, and technical support, our solutions are designed to enhance production efficiency, reduce downtime, and ensure consistent quality across every batch."
+		  }
+		},
+		"Products": {
+		  "hero": {
+			"title": "Products",
+			"description": "Our product portfolio includes high-performance pressure casting molds, durable machinery, and advanced solutions designed for long-term industrial use. Every product we deliver reflects our commitment to precision engineering, seamless integration, and superior durability, helping manufacturers streamline their operations and stay competitive in a fast-changing market."
+		  },
+			"sectionHeading": {
+				"title": "All Our Builds",
+				"subtitle": "Our Products"
+			}
+		},
+		"Gallery": {
+		  "hero": {
+			"title": "Gallery",
+			"description": "Take a closer look at the quality and innovation behind SeraPore’s work. Our gallery showcases real-world applications of our pressure casting molds and machines, customer installations, manufacturing excellence, and detailed craftsmanship—offering a visual journey through our capabilities and success stories."
+		  }
+		},
+		"ContactUs": {
+		  "hero": {
+			"title": "Contact Us",
+			"description": "Ready to take your production to the next level? Get in touch with SeraPore’s expert team to discuss your project needs, request a quote, or learn more about our pressure casting solutions. We’re here to support you with personalized guidance, technical expertise, and industry-leading innovation."
+		  }
+		}
+	  
 }
