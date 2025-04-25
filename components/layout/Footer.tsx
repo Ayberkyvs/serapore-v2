@@ -85,7 +85,7 @@ const Footer = () => {
 		<>
 			<footer className="footer">
 				<div className="flex flex-col inner-footer py-25 gap-10">
-					<div className="w-full grid grid-cols-12 gap-8 items-center">
+					<div className="w-full grid grid-cols-12 gap-8 items-center overflow-hidden max-w-full">
 						<div className="relative flex col-span-12 sm:col-span-5 aspect-[3/2]">
 							<Image
 								src="/media/factory_vector.png"
@@ -97,9 +97,9 @@ const Footer = () => {
 						</div>
 						<div className="col-span-12 sm:col-span-7 grid grid-cols-1 lg:grid-cols-2 gap-8">
 							{footerSocials?.map((link, index: number) => (
-								<div className="size-fit" key={index}>
+								<div className="size-full" key={index}>
 									<h6 className="font-bold">{link.title}</h6>
-									<p>{link.description}</p>
+									<p className="break-all w-full">{link.description}</p>
 									<ul className="mt-2 flex flex-col gap-2">
 										{link.links.map((l) => (
 											<Link href={l.url} key={l.title}>
@@ -114,7 +114,6 @@ const Footer = () => {
 							))}
 						</div>
 					</div>
-
 					<div className="flex justify-between w-full border-t py-6 border-neutral-300">
 						<Logo className="w-[140px] h-[39px] xs:w-[170px] xs:h-[48px]" />
 						<LanguageSwitcher />
