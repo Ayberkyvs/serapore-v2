@@ -8,8 +8,8 @@ import { Button } from "../ui/button";
 import OverlappingCards from "../animations/overlapping-cards";
 import FadeIn from "../animations/fade-in";
 
-const AboutUs = ({ extended }: { extended?: boolean }) => {
-	const t = useTranslations("AboutUs");
+const AboutUsSection = ({ extended }: { extended?: boolean }) => {
+	const t = useTranslations("AboutUsSection");
 	const experiences = [
 		{
 			title: t("experiences.1.title"),
@@ -117,4 +117,4 @@ const AboutUs = ({ extended }: { extended?: boolean }) => {
 	);
 };
 
-export default AboutUs;
+export default AboutUsSection;
