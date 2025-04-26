@@ -197,5 +197,45 @@
       "title": "İletişim",
       "description": "Üretiminizi bir üst seviyeye taşımaya hazır mısınız? Proje ihtiyaçlarınızı görüşmek, teklif almak veya basınçlı döküm çözümlerimiz hakkında daha fazla bilgi edinmek için SeraPore’un uzman ekibiyle iletişime geçin. Kişiselleştirilmiş rehberlik, teknik uzmanlık ve sektör lideri yeniliklerle sizi desteklemeye hazırız."
     }
+  },
+  "SEO": {
+    "root": {
+      "title": {
+        "template": "%s | Serapore TR",
+        "default": "Serapore TR"
+      },
+      "description": "SeraPore Vitrifiye Makine ve Kalıpları, 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir. 1989'dan bu yana ekibimiz sürekli büyümüş ve gelişmiş, basınçlı döküm kalıpları ve basınçlı döküm makineleri üretiminde öncü bir rol üstlenmiştir. Bu geniş bilgi birikimi ve tecrübeyle 1.500'den fazla kalıp ve 35'ten fazla makine üretmiş bulunmaktayız. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, müşterilerimizi vitrifiye üretim sürecinin her aşamasında destekliyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunuyoruz.",
+      "applicationName": "Serapore",
+      "referrer": "origin-when-cross-origin",
+      "keywords": {
+        "1": "SeraPore",
+        "2": "Vitrifiye Makine Ekipmanları",
+        "3": "Basınçlı Döküm Makineleri",
+        "4": "Basınçlı Döküm Kalıpları",
+        "5": "Seramik Kalıp Üretimi",
+        "6": "Vitrifiye Üretimi",
+        "7": "Seramik Vitrifiye Ekipmanları",
+        "8": "Vitrifiye için Kalıp Tasarımı",
+        "9": "Yüksek Basınçlı Döküm Teknolojisi",
+        "10": "Endüstriyel Vitrifiye Çözümleri",
+        "11": "Vitrifiye Kalıplama Sistemleri",
+        "12": "Porselen Kalıpları ve Makineleri",
+        "13": "Banyo Seramikleri Üretimi",
+        "14": "Vitrifiye Üretim Ekipmanları",
+        "15": "Seramik Üretim Makineleri",
+        "16": "SeraPore Makineleri"
+      },
+      "authors": { "name": "Ayberk Yavaş", "url": "https://ayberkyavas.com" },
+      "creator": "Ayberk Yavaş",
+      "publisher": "Ayberk Yavaş",
+      "openGraph": {
+        "type": "website",
+        "locale": "tr_TR",
+        "url": "https://serapore.com",
+        "siteName": "Serapore",
+        "title": "Serapore",
+        "description": "SeraPore Vitrifiye Makine ve Kalıpları, 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir. 1989'dan bu yana ekibimiz sürekli büyümüş ve gelişmiş, basınçlı döküm kalıpları ve basınçlı döküm makineleri üretiminde öncü bir rol üstlenmiştir. Bu geniş bilgi birikimi ve tecrübeyle 1.500'den fazla kalıp ve 35'ten fazla makine üretmiş bulunmaktayız. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, müşterilerimizi vitrifiye üretim sürecinin her aşamasında destekliyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunuyoruz."
+      }
+    }
   }
 }

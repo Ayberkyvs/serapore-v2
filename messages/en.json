@@ -196,5 +196,45 @@
       "title": "Contact Us",
       "description": "Ready to take your production to the next level? Get in touch with SeraPore’s expert team to discuss your project needs, request a quote, or learn more about our pressure casting solutions. We’re here to support you with personalized guidance, technical expertise, and industry-leading innovation."
     }
+  },
+  "SEO": {
+    "root": {
+      "title": {
+        "template": "%s | Serapore",
+        "default": "Serapore"
+      },
+      "description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services.",
+      "applicationName": "Serapore",
+      "referrer": "origin-when-cross-origin",
+      "keywords": {
+        "1": "SeraPore",
+        "2": "Sanitary Ware Machinery",
+        "3": "Pressure Casting Machines",
+        "4": "Pressure Casting Molds",
+        "5": "Ceramic Molds Manufacturing",
+        "6": "Sanitary Ware Production",
+        "7": "Ceramic Sanitary Equipment",
+        "8": "Mold Design for Sanitary Ware",
+        "9": "High-Pressure Casting Technology",
+        "10": "Industrial Sanitary Ware Solutions",
+        "11": "Sanitary Ware Molding Systems",
+        "12": "Porcelain Molds and Machinery",
+        "13": "Bathroom Ceramics Production",
+        "14": "Sanitary Ware Manufacturing Equipment",
+        "15": "Ceramic Production Machines",
+        "16": "SeraPore Machinery"
+      },
+      "authors": { "name": "Ayberk Yavas", "url": "https://ayberkyavas.com" },
+      "creator": "Ayberk Yavas",
+      "publisher": "Ayberk Yavas",
+      "openGraph": {
+        "type": "website",
+        "locale": "en_US",
+        "url": "https://serapore.com",
+        "siteName": "Serapore",
+        "title": "Serapore",
+        "description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services."
+      }
+    }
   }
 }
