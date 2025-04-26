@@ -1,204 +1,201 @@
 {
-	"Header": {
-		"logoSrc": "/logo_main.webp",
-		"menu": {
-			"about": "Hakkımızda",
-			"services": "Hizmetler",
-			"products": "Ürünler",
-			"gallery": "Galeri",
-			"contact": "Bize Ulaş"
-		}
-	},
-	"Hero": {
-		"title": "En dayanıklı üreticilerin arkasındaki güvenilir güç.",
-		"description": "Otuz yılı aşkın süredir SeraPore, dayanıklılığıyla öne çıkan yüksek performanslı kalıp ve makineleriyle öncü üreticilere güç katıyor. Basınçlı döküm konusundaki köklü uzmanlığımız sayesinde, her üretim hattında rakipsiz hassasiyet, güvenilirlik ve uzun vadeli değer sunuyoruz.",
-		"buttons": {
-			"seeProducts": "Ürünleri Gör",
-			"ourServices": "Hizmetlerimiz",
-			"companyPresentation": "Şirket Tanıtım Dosyası"
-		}
-	},
-	"AboutUsSection": {
-		"sectionHeading": {
-			"title": "Satıcınızı, işinizi bildiğiniz kadar iyi tanıyın.",
-			"subtitle": "Hakkımızda"
-		},
-		"description": "SeraPore Vitrifiye Makine ve Kalıpları, alanında 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir. 1989'dan bu yana sürekli büyüyen ve gelişen ekibimiz, basınçlı döküm kalıpları ve basınçlı döküm makineleri üretiminde öncü bir rol üstlenmiştir. Bu geniş bilgi birikimi ve tecrübe ile 1500'ün üzerinde kalıp ve 35'in üzerinde makineyi hayata geçirdik. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, vitrifiye üretim sürecinin her aşamasında müşterilerimize destek sağlıyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunmaktayız.",
-		"experiences": {
-			"1": {
-				"title": "34+",
-				"subtitle": "Yıllık Çalışma Tecrübesi",
-				"description": "SeraPore Vitrifiye Makine ve Kalıpları, alanında 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir."
-			},
-			"2": {
-				"title": "1500+",
-				"subtitle": "Reçine Kalıp Uzmanlığı",
-				"description": "Basınçlı döküm ekibimiz, 1500'ün üzerinde reçine kalıbı üretmiştir."
-			},
-			"3": {
-				"title": "35+",
-				"subtitle": "Özel Döküm Makineleri",
-				"description": "Basınçlı döküm makinesi üretim ve devreye alma ekibimiz, farklı yeteneklere sahip 35 vitrifiye şekillendirme makinesini üretmiş ve devreye almıştır."
-			},
-			"4": {
-				"title": "1200+",
-				"subtitle": "Yenilikçi Kalıp Tasarımları",
-				"description": "Ekibimiz, üretim hatlarında 1200'ün üzerinde basınçlı döküm kalıbı tasarlayarak başarıyla devreye almıştır."
-			}
-		},
-		"extended": {
-			"mission": {
-				"title": "Misyonumuz",
-				"description": "Misyonumuz, vitrifiye üretim sürecini sadeleştirmek, verimliliği artırmak ve müşterilerimizin başarısını desteklemektir. Bu misyonun merkezinde, özgün ve yüksek performanslı basınçlı döküm makineleri ile kalıpların üretimi, üretime özel tasarım desteği ve danışmanlık sunulması, ayrıca makine bakım ve onarımında güvenilir bir çözüm ortağı olmak yer almaktadır. Müşteri memnuniyetini merkezimize alarak; kaliteyi, yeniliği ve sürdürülebilirliği bir arada sunmayı hedefliyoruz."
-			},
-			"vision": {
-				"title": "Vizyonumuz",
-				"description": "Vizyonumuz, seramik ve vitrifiye sektöründe küresel bir lider olmak ve yüksek basınçlı döküm makineleri ile kalıplar alanında en güvenilir ve yenilikçi çözüm ortağı haline gelmektir. Sürekli gelişim, sürdürülebilirlik ve mükemmellik ilkelerine bağlı bir kuruluş olarak, müşterilerimize en yüksek kalitede ürün ve hizmetler sunmayı amaçlıyoruz. Vitrifiye ürünlerinin küresel ölçekte üretim ve satışını gerçekleştiren firmalara en etkili ve verimli üretim çözümlerini sunarak, onların başarısında önemli bir rol üstlenmeyi hedefliyoruz."
-			},
-			"partners": "Çözüm Ortaklarımız",
-			"more": {
-				"title": "Hakkımızda Daha Fazlası",
-				"buttonText": "Firma Sunumunu Görüntüle"
-			}
-		}
-	},
-	"OurPartners": {
-		"sectionHeading": {
-			"title": "Bizi üretim yolculuklarına dahil edenler",
-			"subtitle": "Ortaklarımız"
-		},
-		"description": "Kesinlik, dayanıklılık ve uzun vadeli ortaklığa değer veren sektör liderleriyle iş birliği yapmaktan gurur duyuyoruz. Burada yer alan her isim, ortak bir vizyonu ve üretimde mükemmeliyete olan bağlılığı temsil etmektedir.",
-		"partnersText": "Roca | Vitra | Serel | Kohler | Catalano İtalya | Axa İtalya | GSI İtalya | Uno Seramik İtalya | American Standart | Cercanit Poland | Suudi Ceramic | Harsa-İsrail | Hatria | Univeral Rusya | Ekokerama Uzbekistan | Grandart Uzbekistan | Gozo Uzbekistan | Kleopatra Mısır | Lessico Mısır | Alvit | Newarc | Bocchi | UgraKeram Rusya | Uno Ceramica İtalya | Laufen-Poland | Hatria İtalya | OttoBagno | Bien Türkiye"
-	},
-	"OurServices": {
-		"sectionHeading": {
-			"title": "İşe yarayan çözümler.",
-			"subtitle": "Hizmetlerimiz"
-		},
-		"cards": {
-			"1": {
-				"title": "Yüksek Basınçlı Döküm Makinesi İmalatı",
-				"description": "Yüksek Basınçlı Döküm Makinelerimiz; 3 parçalı Klozet’ten Dikey, Gidişli ve Tezgah Üstü Lavabo makinelerine kadar geniş bir ürün yelpazesi sunar. Bu makineler, farklı ihtiyaçlara ve üretim süreçlerine çözüm sağlar."
-			},
-			"2": {
-				"title": "Reçine Kalıp Üretimi",
-				"description": "Reçine Kalıp üretimimiz; SACMI makinelerine uygun Klozet Kalıpları ve 25 cm’den 160 cm’ye kadar geniş bir Lavabo Kalıbı yelpazesi sunar. Bu kalıplar, vitrifiye ürünlerinin kalitesini artırmak ve üretim hızını yükseltmek için tasarlanmıştır."
-			},
-			"3": {
-				"title": "Tasarım Desteği",
-				"description": "Tasarım Desteği hizmetimiz, yeni tasarımların basınçlı döküme uygun hale getirilmesi, alçı kalıptan reçineli döküm üretimine geçiş sürecinde danışmanlık sunar. Ayrıca, kalıp üretiminde kullanılan şifreleme teknikleriyle reçine kalıpların ömrünü ve verimliliğini artırmak için teknik destek sağlıyoruz."
-			},
-			"4": {
-				"title": "Makine Bakım Desteği",
-				"description": "Makine Bakım Desteği hizmetimiz; her marka Basınçlı Döküm Makinesi, Sırlama Robotu ve Kurutma Kabinlerinin bakım ve onarımını kapsar. Bu hizmet, makinelerinizin kusursuz çalışmasını sağlamak ve üretim sürecindeki aksamaları en aza indirmek amacıyla sunulmaktadır."
-			},
-			"5": {
-				"title": "Üretim Verimliliği Artırma Çalışmaları",
-				"description": "• Basınçlı Döküm Makinelerinde verimlilik artırma desteği, • Klasik Döküm Makinelerinde verimlilik artırma desteği, • Tüm üretim hatlarında verimlilik artırma destekleri"
-			}
-		},
-		"hintDescription": "Keşfetmek için sürükleyin, daha fazlasını görmek için tıklayın"
-	},
-	"HighlightedProducts": {
-		"sectionHeading": {
-			"title": "İmza Makinelerimiz",
-			"subtitle": "Öne Çıkan Ürünler"
-		},
-		"hintDescription": "Keşfetmek için sürükleyin"
-	},
-	"ContactUsSection": {
-		"sectionHeading": {
-			"title": "İhtiyacınızı Bize Bildirin",
-			"subtitle": "Bizimle İletişime Geçin"
-		},
-			"form": {
-			"name": "Ad",
-			"lastname": "Soyad",
-			"email": "E-posta",
-			"company": "Şirket",
-			"message": "Mesajınız",
-			"services": {
-				"title": "Hizmetler",
-				"1": "Üretim",
-				"2": "Reçine Kalıp Üretimi",
-				"3": "Tasarım Desteği",
-				"4": "Makine Bakımı",
-				"5": "Üretim Verimliliği",
-				"6": "Diğer"
-			},
-			"submitButton": "Mesaj Gönder"
-			}
+  "Header": {
+    "logoSrc": "/logo_main.webp",
+    "menu": {
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "products": "Ürünler",
+      "gallery": "Galeri",
+      "contact": "Bize Ulaş"
+    }
+  },
+  "Hero": {
+    "title": "En dayanıklı üreticilerin arkasındaki güvenilir güç.",
+    "description": "Otuz yılı aşkın süredir SeraPore, dayanıklılığıyla öne çıkan yüksek performanslı kalıp ve makineleriyle öncü üreticilere güç katıyor. Basınçlı döküm konusundaki köklü uzmanlığımız sayesinde, her üretim hattında rakipsiz hassasiyet, güvenilirlik ve uzun vadeli değer sunuyoruz.",
+    "buttons": {
+      "seeProducts": "Ürünleri Gör",
+      "ourServices": "Hizmetlerimiz",
+      "companyPresentation": "Şirket Tanıtım Dosyası"
+    }
+  },
+  "AboutUsSection": {
+    "sectionHeading": {
+      "title": "Satıcınızı, işinizi bildiğiniz kadar iyi tanıyın.",
+      "subtitle": "Hakkımızda"
+    },
+    "description": "SeraPore Vitrifiye Makine ve Kalıpları, alanında 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir. 1989'dan bu yana sürekli büyüyen ve gelişen ekibimiz, basınçlı döküm kalıpları ve basınçlı döküm makineleri üretiminde öncü bir rol üstlenmiştir. Bu geniş bilgi birikimi ve tecrübe ile 1500'ün üzerinde kalıp ve 35'in üzerinde makineyi hayata geçirdik. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, vitrifiye üretim sürecinin her aşamasında müşterilerimize destek sağlıyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunmaktayız.",
+    "experiences": {
+      "1": {
+        "title": "34+",
+        "subtitle": "Yıllık Çalışma Tecrübesi",
+        "description": "SeraPore Vitrifiye Makine ve Kalıpları, alanında 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir."
+      },
+      "2": {
+        "title": "1500+",
+        "subtitle": "Reçine Kalıp Uzmanlığı",
+        "description": "Basınçlı döküm ekibimiz, 1500'ün üzerinde reçine kalıbı üretmiştir."
+      },
+      "3": {
+        "title": "35+",
+        "subtitle": "Özel Döküm Makineleri",
+        "description": "Basınçlı döküm makinesi üretim ve devreye alma ekibimiz, farklı yeteneklere sahip 35 vitrifiye şekillendirme makinesini üretmiş ve devreye almıştır."
+      },
+      "4": {
+        "title": "1200+",
+        "subtitle": "Yenilikçi Kalıp Tasarımları",
+        "description": "Ekibimiz, üretim hatlarında 1200'ün üzerinde basınçlı döküm kalıbı tasarlayarak başarıyla devreye almıştır."
+      }
+    },
+    "extended": {
+      "mission": {
+        "title": "Misyonumuz",
+        "description": "Misyonumuz, vitrifiye üretim sürecini sadeleştirmek, verimliliği artırmak ve müşterilerimizin başarısını desteklemektir. Bu misyonun merkezinde, özgün ve yüksek performanslı basınçlı döküm makineleri ile kalıpların üretimi, üretime özel tasarım desteği ve danışmanlık sunulması, ayrıca makine bakım ve onarımında güvenilir bir çözüm ortağı olmak yer almaktadır. Müşteri memnuniyetini merkezimize alarak; kaliteyi, yeniliği ve sürdürülebilirliği bir arada sunmayı hedefliyoruz."
+      },
+      "vision": {
+        "title": "Vizyonumuz",
+        "description": "Vizyonumuz, seramik ve vitrifiye sektöründe küresel bir lider olmak ve yüksek basınçlı döküm makineleri ile kalıplar alanında en güvenilir ve yenilikçi çözüm ortağı haline gelmektir. Sürekli gelişim, sürdürülebilirlik ve mükemmellik ilkelerine bağlı bir kuruluş olarak, müşterilerimize en yüksek kalitede ürün ve hizmetler sunmayı amaçlıyoruz. Vitrifiye ürünlerinin küresel ölçekte üretim ve satışını gerçekleştiren firmalara en etkili ve verimli üretim çözümlerini sunarak, onların başarısında önemli bir rol üstlenmeyi hedefliyoruz."
+      },
+      "partners": "Çözüm Ortaklarımız",
+      "more": {
+        "title": "Hakkımızda Daha Fazlası",
+        "buttonText": "Firma Sunumunu Görüntüle"
+      }
+    }
+  },
+  "OurPartners": {
+    "sectionHeading": {
+      "title": "Bizi üretim yolculuklarına dahil edenler",
+      "subtitle": "Ortaklarımız"
+    },
+    "description": "Kesinlik, dayanıklılık ve uzun vadeli ortaklığa değer veren sektör liderleriyle iş birliği yapmaktan gurur duyuyoruz. Burada yer alan her isim, ortak bir vizyonu ve üretimde mükemmeliyete olan bağlılığı temsil etmektedir.",
+    "partnersText": "Roca | Vitra | Serel | Kohler | Catalano İtalya | Axa İtalya | GSI İtalya | Uno Seramik İtalya | American Standart | Cercanit Poland | Suudi Ceramic | Harsa-İsrail | Hatria | Univeral Rusya | Ekokerama Uzbekistan | Grandart Uzbekistan | Gozo Uzbekistan | Kleopatra Mısır | Lessico Mısır | Alvit | Newarc | Bocchi | UgraKeram Rusya | Uno Ceramica İtalya | Laufen-Poland | Hatria İtalya | OttoBagno | Bien Türkiye"
+  },
+  "OurServices": {
+    "sectionHeading": {
+      "title": "İşe yarayan çözümler.",
+      "subtitle": "Hizmetlerimiz"
+    },
+    "cards": {
+      "1": {
+        "title": "Yüksek Basınçlı Döküm Makinesi İmalatı",
+        "description": "Yüksek Basınçlı Döküm Makinelerimiz; 3 parçalı Klozet’ten Dikey, Gidişli ve Tezgah Üstü Lavabo makinelerine kadar geniş bir ürün yelpazesi sunar. Bu makineler, farklı ihtiyaçlara ve üretim süreçlerine çözüm sağlar."
+      },
+      "2": {
+        "title": "Reçine Kalıp Üretimi",
+        "description": "Reçine Kalıp üretimimiz; SACMI makinelerine uygun Klozet Kalıpları ve 25 cm’den 160 cm’ye kadar geniş bir Lavabo Kalıbı yelpazesi sunar. Bu kalıplar, vitrifiye ürünlerinin kalitesini artırmak ve üretim hızını yükseltmek için tasarlanmıştır."
+      },
+      "3": {
+        "title": "Tasarım Desteği",
+        "description": "Tasarım Desteği hizmetimiz, yeni tasarımların basınçlı döküme uygun hale getirilmesi, alçı kalıptan reçineli döküm üretimine geçiş sürecinde danışmanlık sunar. Ayrıca, kalıp üretiminde kullanılan şifreleme teknikleriyle reçine kalıpların ömrünü ve verimliliğini artırmak için teknik destek sağlıyoruz."
+      },
+      "4": {
+        "title": "Makine Bakım Desteği",
+        "description": "Makine Bakım Desteği hizmetimiz; her marka Basınçlı Döküm Makinesi, Sırlama Robotu ve Kurutma Kabinlerinin bakım ve onarımını kapsar. Bu hizmet, makinelerinizin kusursuz çalışmasını sağlamak ve üretim sürecindeki aksamaları en aza indirmek amacıyla sunulmaktadır."
+      },
+      "5": {
+        "title": "Üretim Verimliliği Artırma Çalışmaları",
+        "description": "• Basınçlı Döküm Makinelerinde verimlilik artırma desteği, • Klasik Döküm Makinelerinde verimlilik artırma desteği, • Tüm üretim hatlarında verimlilik artırma destekleri"
+      }
+    },
+    "hintDescription": "Keşfetmek için sürükleyin, daha fazlasını görmek için tıklayın"
+  },
+  "HighlightedProducts": {
+    "sectionHeading": {
+      "title": "İmza Makinelerimiz",
+      "subtitle": "Öne Çıkan Ürünler"
+    },
+    "hintDescription": "Keşfetmek için sürükleyin"
+  },
+  "ContactUsSection": {
+    "sectionHeading": {
+      "title": "İhtiyacınızı Bize Bildirin",
+      "subtitle": "Bizimle İletişime Geçin"
+    },
+    "form": {
+      "name": "Ad",
+      "lastname": "Soyad",
+      "email": "E-posta",
+      "company": "Şirket",
+      "message": "Mesajınız",
+      "services": {
+        "title": "Hizmetler",
+        "1": "Üretim",
+        "2": "Reçine Kalıp Üretimi",
+        "3": "Tasarım Desteği",
+        "4": "Makine Bakımı",
+        "5": "Üretim Verimliliği",
+        "6": "Diğer"
+      },
+      "submitButton": "Mesaj Gönder"
+    }
+  },
+  "CallToAction": {
+    "title": "Hazır olduğunda buradayız. Haydi birlikte olağanüstü bir şey inşa edelim."
+  },
+  "Footer": {
+    "links": {
+      "socialMedia": {
+        "title": "Bizi buradan bulabilirsiniz",
+        "description": "Ekibimizle sosyal medya platformları üzerinden iletişime geçin.",
+        "youtube": "Videolarımızı izleyin!",
+        "whatsapp": "Bize WhatsApp’tan yazın.",
+        "linkedin": "Son çalışmalarımızı takip edin."
+      },
+      "numbers": {
+        "title": "Bizi Arayın",
+        "description": "Ekibimizi Pazartesi-Cuma 09:00 - 17:00 saatleri arasında arayabilirsiniz",
+        "1": "+90 532 421 48 16",
+        "2": "+90 552 483 66 70",
+        "3": "+90 262 606 10 64"
+      },
+      "emails": {
+        "title": "Bize Yazın",
+        "description": "Fikirlerinizi hayata geçirelim. Bize bir mesaj gönderin, en kısa sürede size dönüş yapalım.",
+        "1": "ertugrul@serapore.com.tr",
+        "2": "mustafa@serapore.com.tr"
+      },
+      "address": {
+        "title": "Bizi Ziyaret Edin",
+        "description": "Büyünün nerede gerçekleştiğini görmek ister misiniz? Bizi ziyaret edin!",
+        "address": "Hacı Halil mah. 1226 sok. No:11 Daire 17 Gebze Kocaeli Türkiye"
+      }
+    },
+    "copyright": "SeraPore Makine Sanayi ve Ticaret Ltd. Şti., Tüm hakları saklıdır.",
+    "poweredBy": "tarafından"
+  },
 
-	},
-	"CallToAction": {
-		"title": "Hazır olduğunda buradayız. Haydi birlikte olağanüstü bir şey inşa edelim."
-	},
-	"Footer": {
-		"links": {
-			"socialMedia": {
-				"title": "Bizi buradan bulabilirsiniz",
-				"description": "Ekibimizle sosyal medya platformları üzerinden iletişime geçin.",
-				"youtube": "Videolarımızı izleyin!",
-				"whatsapp": "Bize WhatsApp’tan yazın.",
-				"linkedin": "Son çalışmalarımızı takip edin."
-			},
-			"numbers": {
-				"title": "Bizi Arayın",
-				"description": "Ekibimizi Pazartesi-Cuma 09:00 - 17:00 saatleri arasında arayabilirsiniz",
-				"1": "+90 532 421 48 16",
-				"2": "+90 552 483 66 70",
-				"3": "+90 262 606 10 64"
-			},
-			"emails": {
-				"title": "Bize Yazın",
-				"description": "Fikirlerinizi hayata geçirelim. Bize bir mesaj gönderin, en kısa sürede size dönüş yapalım.",
-				"1": "ertugrul@serapore.com.tr",
-				"2": "mustafa@serapore.com.tr"
-			},
-			"address": {
-				"title": "Bizi Ziyaret Edin",
-				"description": "Büyünün nerede gerçekleştiğini görmek ister misiniz? Bizi ziyaret edin!",
-				"address": "Hacı Halil mah. 1226 sok. No:11 Daire 17 Gebze Kocaeli Türkiye"
-			}
-		},
-		"copyright": "SeraPore Makine Sanayi ve Ticaret Ltd. Şti., Tüm hakları saklıdır.",
-		"poweredBy": "tarafından"
-	},
-	
-		"AboutUs": {
-		  "hero": {
-			"title": "Hakkımızda",
-			"description": "30 yılı aşkın sektör deneyimiyle SeraPore, basınçlı döküm kalıpları ve makineleri üretiminde güvenilir bir lider haline gelmiştir. Küresel seramik üreticilerinin değişen ihtiyaçlarını karşılayan, uzun ömürlü ve yüksek hassasiyetli ekipmanlar sunma konusunda uzmanız. Yenilikçilik, mühendislikte mükemmeliyet ve müşteri memnuniyetine bağlılığımız kim olduğumuzu ve ne yaptığımızı tanımlar."
-		  }
-		},
-		"Services": {
-		  "hero": {
-			"title": "Hizmetler",
-			"description": "SeraPore, seramik endüstrisindeki üreticilere özel olarak tasarlanmış kapsamlı profesyonel hizmetler sunar. Özel kalıp geliştirmeden makine optimizasyonuna, kurulumdan eğitime ve teknik desteğe kadar tüm çözümlerimiz; üretim verimliliğini artırmak, duruş sürelerini azaltmak ve her partide tutarlı kalite sağlamak üzere tasarlanmıştır."
-		  }
-		},
-		"Products": {
-		  "hero": {
-			"title": "Ürünler",
-			"description": "Ürün portföyümüzde yüksek performanslı basınçlı döküm kalıpları, dayanıklı makineler ve uzun vadeli endüstriyel kullanım için tasarlanmış gelişmiş çözümler yer almaktadır. Her ürünümüz, hassas mühendislik, sorunsuz entegrasyon ve üstün dayanıklılık konusundaki taahhüdümüzü yansıtarak üreticilerin operasyonlarını kolaylaştırmasına ve hızla değişen pazarda rekabetçi kalmasına yardımcı olur."
-		  },
-				"sectionHeading": {
-					"title": "Tüm Üretimlerimiz",
-					"subtitle": "Ürünlerimiz"
-				}
-		},
-		"Gallery": {
-		  "hero": {
-			"title": "Galeri",
-			"description": "SeraPore’un çalışmalarındaki kaliteyi ve yeniliği yakından inceleyin. Galerimizde basınçlı döküm kalıp ve makinelerimizin gerçek dünya uygulamaları, müşteri kurulumları, üretim mükemmeliyeti ve detaylı işçiliği yer almakta—yetkinliklerimizi ve başarı hikâyelerimizi görsel bir yolculukla sunmaktadır."
-		  }
-		},
-		"ContactUs": {
-		  "hero": {
-			"title": "İletişim",
-			"description": "Üretiminizi bir üst seviyeye taşımaya hazır mısınız? Proje ihtiyaçlarınızı görüşmek, teklif almak veya basınçlı döküm çözümlerimiz hakkında daha fazla bilgi edinmek için SeraPore’un uzman ekibiyle iletişime geçin. Kişiselleştirilmiş rehberlik, teknik uzmanlık ve sektör lideri yeniliklerle sizi desteklemeye hazırız."
-		  }
-		}
-	  
-	  
+  "AboutUs": {
+    "hero": {
+      "title": "Hakkımızda",
+      "description": "30 yılı aşkın sektör deneyimiyle SeraPore, basınçlı döküm kalıpları ve makineleri üretiminde güvenilir bir lider haline gelmiştir. Küresel seramik üreticilerinin değişen ihtiyaçlarını karşılayan, uzun ömürlü ve yüksek hassasiyetli ekipmanlar sunma konusunda uzmanız. Yenilikçilik, mühendislikte mükemmeliyet ve müşteri memnuniyetine bağlılığımız kim olduğumuzu ve ne yaptığımızı tanımlar."
+    }
+  },
+  "Services": {
+    "hero": {
+      "title": "Hizmetler",
+      "description": "SeraPore, seramik endüstrisindeki üreticilere özel olarak tasarlanmış kapsamlı profesyonel hizmetler sunar. Özel kalıp geliştirmeden makine optimizasyonuna, kurulumdan eğitime ve teknik desteğe kadar tüm çözümlerimiz; üretim verimliliğini artırmak, duruş sürelerini azaltmak ve her partide tutarlı kalite sağlamak üzere tasarlanmıştır."
+    }
+  },
+  "Products": {
+    "hero": {
+      "title": "Ürünler",
+      "description": "Ürün portföyümüzde yüksek performanslı basınçlı döküm kalıpları, dayanıklı makineler ve uzun vadeli endüstriyel kullanım için tasarlanmış gelişmiş çözümler yer almaktadır. Her ürünümüz, hassas mühendislik, sorunsuz entegrasyon ve üstün dayanıklılık konusundaki taahhüdümüzü yansıtarak üreticilerin operasyonlarını kolaylaştırmasına ve hızla değişen pazarda rekabetçi kalmasına yardımcı olur."
+    },
+    "sectionHeading": {
+      "title": "Tüm Üretimlerimiz",
+      "subtitle": "Ürünlerimiz"
+    }
+  },
+  "Gallery": {
+    "hero": {
+      "title": "Galeri",
+      "description": "SeraPore’un çalışmalarındaki kaliteyi ve yeniliği yakından inceleyin. Galerimizde basınçlı döküm kalıp ve makinelerimizin gerçek dünya uygulamaları, müşteri kurulumları, üretim mükemmeliyeti ve detaylı işçiliği yer almakta—yetkinliklerimizi ve başarı hikâyelerimizi görsel bir yolculukla sunmaktadır."
+    }
+  },
+  "ContactUs": {
+    "hero": {
+      "title": "İletişim",
+      "description": "Üretiminizi bir üst seviyeye taşımaya hazır mısınız? Proje ihtiyaçlarınızı görüşmek, teklif almak veya basınçlı döküm çözümlerimiz hakkında daha fazla bilgi edinmek için SeraPore’un uzman ekibiyle iletişime geçin. Kişiselleştirilmiş rehberlik, teknik uzmanlık ve sektör lideri yeniliklerle sizi desteklemeye hazırız."
+    }
+  }
 }
