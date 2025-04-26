@@ -2,7 +2,9 @@ name: autofix.ci
 on:
   pull_request:
   push:
-permissions: {}
+permissions:
+  contents: write
+  pull-requests: write
 jobs:
   prettier:
     runs-on: ubuntu-latest
@@ -13,5 +15,5 @@ jobs:
           yarn
           yarn prettier . --write
       - uses: autofix-ci/action@v1
-        with:
-          commit-message: "Apply Prettier format"
+    with:
+      commit-message: "chore(autoformat): apply Prettier formatting automatically"
