@@ -15,5 +15,5 @@ jobs:
           yarn
           yarn prettier . --write
       - uses: autofix-ci/action@v1
-    with:
-      commit-message: "chore(autoformat): apply Prettier formatting automatically"
+        with:
+          commit-message: "chore(autoformat): apply Prettier formatting automatically"

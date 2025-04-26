@@ -1,201 +1,200 @@
 {
-	"Header": {
-		"logoSrc": "/logo_main_en.webp",
-		"menu": {
-			"about": "About Us",
-			"services": "Services",
-			"products": "Products",
-			"gallery": "Gallery",
-			"contact": "Contact Us"
-		}
-	},
-	"Hero": {
-		"title": "A trusted force behind the most resilient manufacturers.",
-		"description": "For over three decades, SeraPore has empowered leading manufacturers with high-performance molds and machines built to last. Our deep-rooted expertise in pressure casting enables us to deliver unmatched precision, reliability, and long-term value across every production line.",
-		"buttons": {
-			"seeProducts": "See products",
-			"ourServices": "Our services",
-			"companyPresentation": "Company presentation"
-		}
-	},
-	"AboutUsSection": {
-		"sectionHeading": {
-			"title": "Know your seller, like you know your bussiness.",
-			"subtitle": "About Us"
-		},
-		"description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services.",
-		"experiences": {
-			"1": {
-				"title": "34+",
-				"subtitle": "Years of Working Experience",
-				"description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field"
-			},
-			"2": {
-				"title": "1500+",
-				"subtitle": "Resin Mold Expertise",
-				"description": "Our pressure die casting team has produced over 1,500 resin molds."
-			},
-			"3": {
-				"title": "35+",
-				"subtitle": "Custom Casting Machinery",
-				"description": "Our pressure casting machine production and commissioning team has manufactured and commissioned 35 sanitary ceramic forming machines with various capabilities."
-			},
-			"4": {
-				"title": "1200+",
-				"subtitle": "Innovative Mold Designs",
-				"description": "Our team is on the production lines by designing new models at the levels of 1200 pressure casting molds he has successfully commissioned it."
-			}
-		},
-		"extended": {
-			"mission": {
-				"title": "Our Mission",
-				"description": "Our mission is to simplify the sanitary ware production process, enhance efficiency, and support the success of our clients. At the core of this mission lies the production of original and high-performance high-pressure casting machines and molds, providing tailored design support and consultancy for manufacturing, and being a reliable partner in machine maintenance and repair. With customer satisfaction at the center of our approach, we strive to deliver a combination of quality, innovation, and sustainability."
-			},
-			"vision": {
-				"title": "Our Vision",
-				"description": "Our vision is to become a global leader in the ceramic and sanitary ware industry, and to be the most trusted and innovative solution partner in the field of high-pressure casting machines and molds. As an organization committed to continuous improvement, sustainability, and excellence, we aim to provide our customers with the highest quality products and services. By delivering the most effective and efficient production solutions to companies involved in the global manufacturing and sales of sanitary ware, we strive to play a vital role in their success."
-			},
-			"partners": "Our Partners",
-			"more": {
-				"title": "Learn More About Us",
-				"buttonText": "View Company Presentation"
-			}
-		}
-	},
-	"OurPartners": {
-		"sectionHeading": {
-			"title": "Those who’ve made us a part of their manufacturing journey",
-			"subtitle": "Our Partners"
-		},
-		"description": "We’re proud to collaborate with industry leaders who value precision, durability, and long-term partnership. Each name here represents a shared vision and a commitment to excellence in manufacturing.",
-		"partnersText": "Roca | Vitra | Serel | Kohler | Catalano İtalya | Axa İtalya | GSI İtalya | Uno Seramik İtalya | American Standart | Cercanit Poland | Suudi Ceramic | Harsa-İsrail | Hatria | Univeral Rusya | Ekokerama Uzbekistan | Grandart Uzbekistan | Gozo Uzbekistan | Kleopatra Mısır | Lessico Mısır | Alvit | Newarc | Bocchi | UgraKeram Rusya | Uno Ceramica İtalya | Laufen-Poland | Hatria İtalya | OttoBagno | Bien Türkiye"
-	},
-	"OurServices": {
-		"sectionHeading": {
-			"title": "Solutions that work.",
-			"subtitle": "Our Services"
-		},
-		"cards": {
-			"1": {
-				"title": "High-Pressure Casting Machine Manufacturing",
-				"description": "Our High Pressure Casting Machines, From 3-piece Toilet Bowl to Vertical A wide range of products, from Reciprocating to Countertop Sink machine it offers production capacity. These machines meet different needs and production provides solutions for their processes."
-			},
-			"2": {
-				"title": "Resin Mold Production",
-				"description": "Our Resin Mold production includes Toilet Bowl Molds suitable for SACMI Machines and a wide range of Sink Molds from 25 cm to 160 cm, including it offers a range of products. These molds are designed to improve the quality of vitrified products and it is ideal for increasing the production speed."
-			},
-			"3": {
-				"title": "Design Support",
-				"description": "Our Design Support service, pressure casting of new designs making it suitable for molds and pressurized from the production of gypsum molds provides consultancy during the transition process to casting production. In addition, the resin mold life and efficiency with encryption techniques in mold production we offer technical support to increase it."
-			},
-			"4": {
-				"title": "Machine Maintenance Support",
-				"description": "Our Machine Maintenance Support service, every brand of Pressure Casting Maintenance and maintenance of Machines, Glazing Robots and Drying Chambers it covers the repair. This service allows your machine to work perfectly to maintain its condition and minimize disruptions in the production process it aims to."
-			},
-			"5": {
-				"title": "Production Efficiency Improvement Efforts",
-				"description": "• Support for increasing productivity in Pressure Casting Machines, • Support for increasing productivity in Classic Casting Machines, * Supports to increase productivity in all production lines"
-			}
-		},
-		"hintDescription": "Drag to Explore & Click to See More"
-	},
-	"HighlightedProducts": {
-		"sectionHeading": {
-			"title": "Our Signature Machines",
-			"subtitle": "Featured Products"
-		},
-		"hintDescription": "Drag to Explore"
-	},
-	"ContactUsSection": {
-		"sectionHeading": {
-			"title": "Tell Us What You Need",
-			"subtitle": "Contact Us"
-		},
-		"form": {
-			"name": "Name",
-			"lastname": "Last Name",
-			"email": "Email",
-			"company": "Company",
-			"message": "Your Message",
-			"services": {
-				"title": "Services",
-				"1": "Manufacturing",
-				"2": "Resin Mold Production",
-				"3": "Design Support",
-				"4": "Machine Maintenance",
-				"5": "Production Efficiency",
-				"6": "Other"
-			},
-			"submitButton": "Send Message"
-		}
-	},
-	"CallToAction": {
-		"title": "Ready when you are. Let’s build something exceptional."
-	},
-	"Footer": {
-		"links": {
-			"socialMedia": {
-				"title": "You can find us on",
-				"description": "Speak to our team via social media platforms.",
-				"youtube": "Watch our videos!",
-				"whatsapp": "Message us on WhatsApp.",
-				"linkedin": "Follow our latest works."
-			},
-			"numbers": {
-				"title": "Call Us",
-				"description": "Call our team Mon-Fri from 9am to 5pm",
-				"1": "+90 532 421 48 16",
-				"2": "+90 552 483 66 70",
-				"3": "+90 262 606 10 64"
-			},
-			"emails": {
-				"title": "Mail Us",
-				"description": "Let’s bring your ideas to life. Send us a message and we’ll get back to you shortly.",
-				"1": "ertugrul@serapore.com.tr",
-				"2": "mustafa@serapore.com.tr"
-			},
-			"address": {
-				"title": "Visit Us",
-				"description": "Want to see where the magic happens? Come visit us!",
-				"address": "Hacı Halil mah.1226 sok. No:11 Daire 17 Gebze Kocaeli Türkiye"
-			}
-		},
-		"copyright": "SeraPore Machinery Industry And Trade Ltd, All rights reserved.",
-		"poweredBy": "powered by"
-	},
-	
-		"AboutUs": {
-		  "hero": {
-			"title": "About Us",
-			"description": "With over 30 years of industry expertise, SeraPore has become a trusted leader in the manufacturing of pressure casting molds and machines. We specialize in delivering long-lasting, high-precision equipment that meets the evolving demands of global ceramic producers. Our commitment to innovation, engineering excellence, and customer satisfaction defines who we are and what we do."
-		  }
-		},
-		"Services": {
-		  "hero": {
-			"title": "Services",
-			"description": "SeraPore offers a comprehensive range of professional services tailored to the needs of manufacturers in the ceramics industry. From custom mold development and machine optimization to installation, training, and technical support, our solutions are designed to enhance production efficiency, reduce downtime, and ensure consistent quality across every batch."
-		  }
-		},
-		"Products": {
-		  "hero": {
-			"title": "Products",
-			"description": "Our product portfolio includes high-performance pressure casting molds, durable machinery, and advanced solutions designed for long-term industrial use. Every product we deliver reflects our commitment to precision engineering, seamless integration, and superior durability, helping manufacturers streamline their operations and stay competitive in a fast-changing market."
-		  },
-			"sectionHeading": {
-				"title": "All Our Builds",
-				"subtitle": "Our Products"
-			}
-		},
-		"Gallery": {
-		  "hero": {
-			"title": "Gallery",
-			"description": "Take a closer look at the quality and innovation behind SeraPore’s work. Our gallery showcases real-world applications of our pressure casting molds and machines, customer installations, manufacturing excellence, and detailed craftsmanship—offering a visual journey through our capabilities and success stories."
-		  }
-		},
-		"ContactUs": {
-		  "hero": {
-			"title": "Contact Us",
-			"description": "Ready to take your production to the next level? Get in touch with SeraPore’s expert team to discuss your project needs, request a quote, or learn more about our pressure casting solutions. We’re here to support you with personalized guidance, technical expertise, and industry-leading innovation."
-		  }
-		}
+  "Header": {
+    "logoSrc": "/logo_main_en.webp",
+    "menu": {
+      "about": "About Us",
+      "services": "Services",
+      "products": "Products",
+      "gallery": "Gallery",
+      "contact": "Contact Us"
+    }
+  },
+  "Hero": {
+    "title": "A trusted force behind the most resilient manufacturers.",
+    "description": "For over three decades, SeraPore has empowered leading manufacturers with high-performance molds and machines built to last. Our deep-rooted expertise in pressure casting enables us to deliver unmatched precision, reliability, and long-term value across every production line.",
+    "buttons": {
+      "seeProducts": "See products",
+      "ourServices": "Our services",
+      "companyPresentation": "Company presentation"
+    }
+  },
+  "AboutUsSection": {
+    "sectionHeading": {
+      "title": "Know your seller, like you know your bussiness.",
+      "subtitle": "About Us"
+    },
+    "description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services.",
+    "experiences": {
+      "1": {
+        "title": "34+",
+        "subtitle": "Years of Working Experience",
+        "description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field"
+      },
+      "2": {
+        "title": "1500+",
+        "subtitle": "Resin Mold Expertise",
+        "description": "Our pressure die casting team has produced over 1,500 resin molds."
+      },
+      "3": {
+        "title": "35+",
+        "subtitle": "Custom Casting Machinery",
+        "description": "Our pressure casting machine production and commissioning team has manufactured and commissioned 35 sanitary ceramic forming machines with various capabilities."
+      },
+      "4": {
+        "title": "1200+",
+        "subtitle": "Innovative Mold Designs",
+        "description": "Our team is on the production lines by designing new models at the levels of 1200 pressure casting molds he has successfully commissioned it."
+      }
+    },
+    "extended": {
+      "mission": {
+        "title": "Our Mission",
+        "description": "Our mission is to simplify the sanitary ware production process, enhance efficiency, and support the success of our clients. At the core of this mission lies the production of original and high-performance high-pressure casting machines and molds, providing tailored design support and consultancy for manufacturing, and being a reliable partner in machine maintenance and repair. With customer satisfaction at the center of our approach, we strive to deliver a combination of quality, innovation, and sustainability."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "Our vision is to become a global leader in the ceramic and sanitary ware industry, and to be the most trusted and innovative solution partner in the field of high-pressure casting machines and molds. As an organization committed to continuous improvement, sustainability, and excellence, we aim to provide our customers with the highest quality products and services. By delivering the most effective and efficient production solutions to companies involved in the global manufacturing and sales of sanitary ware, we strive to play a vital role in their success."
+      },
+      "partners": "Our Partners",
+      "more": {
+        "title": "Learn More About Us",
+        "buttonText": "View Company Presentation"
+      }
+    }
+  },
+  "OurPartners": {
+    "sectionHeading": {
+      "title": "Those who’ve made us a part of their manufacturing journey",
+      "subtitle": "Our Partners"
+    },
+    "description": "We’re proud to collaborate with industry leaders who value precision, durability, and long-term partnership. Each name here represents a shared vision and a commitment to excellence in manufacturing.",
+    "partnersText": "Roca | Vitra | Serel | Kohler | Catalano İtalya | Axa İtalya | GSI İtalya | Uno Seramik İtalya | American Standart | Cercanit Poland | Suudi Ceramic | Harsa-İsrail | Hatria | Univeral Rusya | Ekokerama Uzbekistan | Grandart Uzbekistan | Gozo Uzbekistan | Kleopatra Mısır | Lessico Mısır | Alvit | Newarc | Bocchi | UgraKeram Rusya | Uno Ceramica İtalya | Laufen-Poland | Hatria İtalya | OttoBagno | Bien Türkiye"
+  },
+  "OurServices": {
+    "sectionHeading": {
+      "title": "Solutions that work.",
+      "subtitle": "Our Services"
+    },
+    "cards": {
+      "1": {
+        "title": "High-Pressure Casting Machine Manufacturing",
+        "description": "Our High Pressure Casting Machines, From 3-piece Toilet Bowl to Vertical A wide range of products, from Reciprocating to Countertop Sink machine it offers production capacity. These machines meet different needs and production provides solutions for their processes."
+      },
+      "2": {
+        "title": "Resin Mold Production",
+        "description": "Our Resin Mold production includes Toilet Bowl Molds suitable for SACMI Machines and a wide range of Sink Molds from 25 cm to 160 cm, including it offers a range of products. These molds are designed to improve the quality of vitrified products and it is ideal for increasing the production speed."
+      },
+      "3": {
+        "title": "Design Support",
+        "description": "Our Design Support service, pressure casting of new designs making it suitable for molds and pressurized from the production of gypsum molds provides consultancy during the transition process to casting production. In addition, the resin mold life and efficiency with encryption techniques in mold production we offer technical support to increase it."
+      },
+      "4": {
+        "title": "Machine Maintenance Support",
+        "description": "Our Machine Maintenance Support service, every brand of Pressure Casting Maintenance and maintenance of Machines, Glazing Robots and Drying Chambers it covers the repair. This service allows your machine to work perfectly to maintain its condition and minimize disruptions in the production process it aims to."
+      },
+      "5": {
+        "title": "Production Efficiency Improvement Efforts",
+        "description": "• Support for increasing productivity in Pressure Casting Machines, • Support for increasing productivity in Classic Casting Machines, * Supports to increase productivity in all production lines"
+      }
+    },
+    "hintDescription": "Drag to Explore & Click to See More"
+  },
+  "HighlightedProducts": {
+    "sectionHeading": {
+      "title": "Our Signature Machines",
+      "subtitle": "Featured Products"
+    },
+    "hintDescription": "Drag to Explore"
+  },
+  "ContactUsSection": {
+    "sectionHeading": {
+      "title": "Tell Us What You Need",
+      "subtitle": "Contact Us"
+    },
+    "form": {
+      "name": "Name",
+      "lastname": "Last Name",
+      "email": "Email",
+      "company": "Company",
+      "message": "Your Message",
+      "services": {
+        "title": "Services",
+        "1": "Manufacturing",
+        "2": "Resin Mold Production",
+        "3": "Design Support",
+        "4": "Machine Maintenance",
+        "5": "Production Efficiency",
+        "6": "Other"
+      },
+      "submitButton": "Send Message"
+    }
+  },
+  "CallToAction": {
+    "title": "Ready when you are. Let’s build something exceptional."
+  },
+  "Footer": {
+    "links": {
+      "socialMedia": {
+        "title": "You can find us on",
+        "description": "Speak to our team via social media platforms.",
+        "youtube": "Watch our videos!",
+        "whatsapp": "Message us on WhatsApp.",
+        "linkedin": "Follow our latest works."
+      },
+      "numbers": {
+        "title": "Call Us",
+        "description": "Call our team Mon-Fri from 9am to 5pm",
+        "1": "+90 532 421 48 16",
+        "2": "+90 552 483 66 70",
+        "3": "+90 262 606 10 64"
+      },
+      "emails": {
+        "title": "Mail Us",
+        "description": "Let’s bring your ideas to life. Send us a message and we’ll get back to you shortly.",
+        "1": "ertugrul@serapore.com.tr",
+        "2": "mustafa@serapore.com.tr"
+      },
+      "address": {
+        "title": "Visit Us",
+        "description": "Want to see where the magic happens? Come visit us!",
+        "address": "Hacı Halil mah.1226 sok. No:11 Daire 17 Gebze Kocaeli Türkiye"
+      }
+    },
+    "copyright": "SeraPore Machinery Industry And Trade Ltd, All rights reserved.",
+    "poweredBy": "powered by"
+  },
+  "AboutUs": {
+    "hero": {
+      "title": "About Us",
+      "description": "With over 30 years of industry expertise, SeraPore has become a trusted leader in the manufacturing of pressure casting molds and machines. We specialize in delivering long-lasting, high-precision equipment that meets the evolving demands of global ceramic producers. Our commitment to innovation, engineering excellence, and customer satisfaction defines who we are and what we do."
+    }
+  },
+  "Services": {
+    "hero": {
+      "title": "Services",
+      "description": "SeraPore offers a comprehensive range of professional services tailored to the needs of manufacturers in the ceramics industry. From custom mold development and machine optimization to installation, training, and technical support, our solutions are designed to enhance production efficiency, reduce downtime, and ensure consistent quality across every batch."
+    }
+  },
+  "Products": {
+    "hero": {
+      "title": "Products",
+      "description": "Our product portfolio includes high-performance pressure casting molds, durable machinery, and advanced solutions designed for long-term industrial use. Every product we deliver reflects our commitment to precision engineering, seamless integration, and superior durability, helping manufacturers streamline their operations and stay competitive in a fast-changing market."
+    },
+    "sectionHeading": {
+      "title": "All Our Builds",
+      "subtitle": "Our Products"
+    }
+  },
+  "Gallery": {
+    "hero": {
+      "title": "Gallery",
+      "description": "Take a closer look at the quality and innovation behind SeraPore’s work. Our gallery showcases real-world applications of our pressure casting molds and machines, customer installations, manufacturing excellence, and detailed craftsmanship—offering a visual journey through our capabilities and success stories."
+    }
+  },
+  "ContactUs": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "Ready to take your production to the next level? Get in touch with SeraPore’s expert team to discuss your project needs, request a quote, or learn more about our pressure casting solutions. We’re here to support you with personalized guidance, technical expertise, and industry-leading innovation."
+    }
+  }
 }
