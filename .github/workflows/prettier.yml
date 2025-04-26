@@ -11,9 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-      - run: |
-          pnpm
-          pnpm prettier . --write
+        with:
+          node-version: "20" # veya proje hangi node sürümündeyse onu yaz
+      - run: npm install
+      - run: npx prettier . --write
       - uses: autofix-ci/action@v1
         with:
           commit-message: "chore(autoformat): apply Prettier formatting automatically"
