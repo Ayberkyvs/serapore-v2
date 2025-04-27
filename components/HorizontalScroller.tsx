@@ -4,22 +4,22 @@ import { ReactNode, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 
 interface Props {
-	children: ReactNode;
+  children: ReactNode;
 }
 
 export default function HorizontalScroller({ children }: Props) {
-	const [emblaRef, emblaApi] = useEmblaCarousel({
-		dragFree: true,
-		containScroll: "trimSnaps",
-	});
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    dragFree: true,
+    containScroll: "trimSnaps",
+  });
 
-	useEffect(() => {
-		if (emblaApi) emblaApi.reInit();
-	}, [emblaApi]);
+  useEffect(() => {
+    if (emblaApi) emblaApi.reInit();
+  }, [emblaApi]);
 
-	return (
-		<div className="overflow-hidden" ref={emblaRef}>
-			<div className="flex gap-5">{children}</div>
-		</div>
-	);
+  return (
+    <div className="overflow-hidden" ref={emblaRef}>
+      <div className="flex gap-5">{children}</div>
+    </div>
+  );
 }

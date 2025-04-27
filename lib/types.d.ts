@@ -1,11 +1,11 @@
 export type MenuItem = {
-	name: string;
-	path: string;
-	type: "link" | "button";
-	icon: React.ReactNode;
+  name: string;
+  path: string;
+  type: "link" | "button";
+  icon: React.ReactNode;
 };
 export type SectionHeadingProps = {
-	title: string;
-	subtitle?: string;
+  title: string;
+  subtitle?: string;
 };
 export type partnerLogosProps = string[];
