@@ -88,6 +88,7 @@ const RootLayout = async ({
   return (
     <>
       <html lang={locale}>
+        <meta name="apple-mobile-web-app-title" content="Serapore" />
         <body className={`${geistSans.variable} ${inter.variable} antialiased`}>
           <Header />
           <NextIntlClientProvider>{children}</NextIntlClientProvider>
