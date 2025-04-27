@@ -13,7 +13,7 @@ export default function MobileBottomMenu() {
             key={item.path}
             href={item.path}
             className={cn(
-              "flex flex-col items-center justify-center w-full h-full"
+              "flex flex-col items-center justify-center w-full h-full",
             )}
           >
             <div className="relative flex items-center justify-center w-10 h-10 rounded-full">

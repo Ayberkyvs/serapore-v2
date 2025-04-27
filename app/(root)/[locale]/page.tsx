@@ -8,17 +8,17 @@ import CTA from "@/components/sections/CallToAction";
 import AboutUsSection from "@/components/sections/AboutUs";
 
 export default function Home() {
-	return (
-		<>
-			<Hero />
-			<BackgroundImageWrapper>
-				<AboutUsSection />
-			</BackgroundImageWrapper>
-			<OurPartners />
-			<OurServices />
-			<HighlightedProducts />
-			<ContactUsSection />
-			<CTA />
-		</>
-	);
+  return (
+    <>
+      <Hero />
+      <BackgroundImageWrapper>
+        <AboutUsSection />
+      </BackgroundImageWrapper>
+      <OurPartners />
+      <OurServices />
+      <HighlightedProducts />
+      <ContactUsSection />
+      <CTA />
+    </>
+  );
 }

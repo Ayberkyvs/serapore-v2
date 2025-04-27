@@ -4,24 +4,24 @@ import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req: NextRequest) {
-	const { name, lastname, email, company, message, services } =
-		await req.json();
+  const { name, lastname, email, company, message, services } =
+    await req.json();
 
-	const transporter = nodemailer.createTransport({
-		host: process.env.SMTP_HOST,
-		port: Number(process.env.SMTP_PORT),
-		secure: process.env.SMTP_SECURE === "true",
-		auth: {
-			user: process.env.SMTP_USER,
-			pass: process.env.SMTP_PASS,
-		},
-	});
+  const transporter = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: Number(process.env.SMTP_PORT),
+    secure: process.env.SMTP_SECURE === "true",
+    auth: {
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
+    },
+  });
 
-	const mailOptions = {
-		from: `"${name} ${lastname}" <${process.env.SMTP_USER}>`,
-		to: process.env.MAIL_TO,
-		subject: `New Contact from ${name} | serapore.com`,
-		html: `
+  const mailOptions = {
+    from: `"${name} ${lastname}" <${process.env.SMTP_USER}>`,
+    to: process.env.MAIL_TO,
+    subject: `New Contact from ${name} | serapore.com`,
+    html: `
 			<!DOCTYPE html>
 			<html lang="en">
 			<head>
@@ -87,18 +87,18 @@ export async function POST(req: NextRequest) {
 			</body>
 			</html>
 		`,
-		replyTo: email,
-		sender: email,
-	};
+    replyTo: email,
+    sender: email,
+  };
 
-	try {
-		await transporter.sendMail(mailOptions);
-		return NextResponse.json({ success: true });
-	} catch (error) {
-		console.error(error);
-		return NextResponse.json(
-			{ error: "Failed to send email" },
-			{ status: 500 }
-		);
-	}
+  try {
+    await transporter.sendMail(mailOptions);
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error(error);
+    return NextResponse.json(
+      { error: "Failed to send email" },
+      { status: 500 },
+    );
+  }
 }
