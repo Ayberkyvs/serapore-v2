@@ -97,14 +97,20 @@
         "description": "• Support for increasing productivity in Pressure Casting Machines, • Support for increasing productivity in Classic Casting Machines, * Supports to increase productivity in all production lines"
       }
     },
-    "hintDescription": "Drag to Explore & Click to See More"
+    "hint": {
+      "description": "Drag to Explore & Click",
+      "neverShowText": "Never show again"
+    }
   },
   "HighlightedProducts": {
     "sectionHeading": {
       "title": "Our Signature Machines",
       "subtitle": "Featured Products"
     },
-    "hintDescription": "Drag to Explore"
+    "hint": {
+      "description": "Drag to Explore",
+      "neverShowText": "Never show again"
+    }
   },
   "ContactUsSection": {
     "sectionHeading": {
@@ -189,6 +195,12 @@
     "hero": {
       "title": "Gallery",
       "description": "Take a closer look at the quality and innovation behind SeraPore’s work. Our gallery showcases real-world applications of our pressure casting molds and machines, customer installations, manufacturing excellence, and detailed craftsmanship—offering a visual journey through our capabilities and success stories."
+    },
+    "videos": {
+      "sectionHeading": {
+        "title": "Our Work in Action",
+        "subtitle": "Video Gallery"
+      }
     }
   },
   "ContactUs": {
@@ -234,6 +246,54 @@
         "siteName": "Serapore",
         "title": "Serapore",
         "description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services."
+      }
+    },
+    "home": {
+      "title": "Home",
+      "description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services.",
+      "openGraph": {
+        "title": "A trusted force behind the most resilient manufacturers | Serapore",
+        "description": "SeraPore Sanitary Ware Machinery and Molds operates under the leadership of a team with over 30 years of experience and expertise in the field. Since 1989, our team has continuously grown and evolved, playing a pioneering role in the production of pressure casting molds and pressure casting machines. With this extensive knowledge and experience, we have brought to life more than 1,500 molds and over 35 machines. Combining quality, innovation, and excellence in a unique approach, we support our customers at every stage of the sanitary ware production process. From product design to mold and machine manufacturing, and even machine maintenance, we offer a wide range of services."
+      }
+    },
+    "aboutus": {
+      "title": "About Us",
+      "description": "With over 30 years of industry expertise, SeraPore has become a trusted leader in the manufacturing of pressure casting molds and machines. We specialize in delivering long-lasting, high-precision equipment that meets the evolving demands of global ceramic producers. Our commitment to innovation, engineering excellence, and customer satisfaction defines who we are and what we do.",
+      "openGraph": {
+        "title": "About Us | Serapore",
+        "description": "With over 30 years of industry expertise, SeraPore has become a trusted leader in the manufacturing of pressure casting molds and machines. We specialize in delivering long-lasting, high-precision equipment that meets the evolving demands of global ceramic producers. Our commitment to innovation, engineering excellence, and customer satisfaction defines who we are and what we do."
+      }
+    },
+    "services": {
+      "title": "Services",
+      "description": "SeraPore offers a comprehensive range of professional services tailored to the needs of manufacturers in the ceramics industry. From custom mold development and machine optimization to installation, training, and technical support, our solutions are designed to enhance production efficiency, reduce downtime, and ensure consistent quality across every batch.",
+      "openGraph": {
+        "title": "Services | Serapore",
+        "description": "SeraPore offers a comprehensive range of professional services tailored to the needs of manufacturers in the ceramics industry. From custom mold development and machine optimization to installation, training, and technical support, our solutions are designed to enhance production efficiency, reduce downtime, and ensure consistent quality across every batch."
+      }
+    },
+    "products": {
+      "title": "Products",
+      "description": "Our product portfolio includes high-performance pressure casting molds, durable machinery, and advanced solutions designed for long-term industrial use. Every product we deliver reflects our commitment to precision engineering, seamless integration, and superior durability, helping manufacturers streamline their operations and stay competitive in a fast-changing market.",
+      "openGraph": {
+        "title": "Products | Serapore",
+        "description": "Our product portfolio includes high-performance pressure casting molds, durable machinery, and advanced solutions designed for long-term industrial use. Every product we deliver reflects our commitment to precision engineering, seamless integration, and superior durability, helping manufacturers streamline their operations and stay competitive in a fast-changing market."
+      }
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Take a closer look at the quality and innovation behind SeraPore’s work. Our gallery showcases real-world applications of our pressure casting molds and machines, customer installations, manufacturing excellence, and detailed craftsmanship—offering a visual journey through our capabilities and success stories.",
+      "openGraph": {
+        "title": "Gallery | Serapore",
+        "description": "Take a closer look at the quality and innovation behind SeraPore’s work. Our gallery showcases real-world applications of our pressure casting molds and machines, customer installations, manufacturing excellence, and detailed craftsmanship—offering a visual journey through our capabilities and success stories."
+      }
+    },
+    "contactus": {
+      "title": "Contact Us",
+      "description": "Ready to take your production to the next level? Get in touch with SeraPore’s expert team to discuss your project needs, request a quote, or learn more about our pressure casting solutions. We’re here to support you with personalized guidance, technical expertise, and industry-leading innovation.",
+      "openGraph": {
+        "title": "Contact Us | Serapore",
+        "description": "Ready to take your production to the next level? Get in touch with SeraPore’s expert team to discuss your project needs, request a quote, or learn more about our pressure casting solutions. We’re here to support you with personalized guidance, technical expertise, and industry-leading innovation."
       }
     }
   }

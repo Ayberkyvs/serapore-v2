@@ -70,6 +70,14 @@ export async function generateMetadata({
       title: t("openGraph.title"),
       description: t("openGraph.description"),
     },
+    metadataBase: new URL("https://serapore.com"),
+    alternates: {
+      canonical: "/",
+      languages: {
+        "en-US": "/en",
+        "tr-TR": "/tr",
+      },
+    },
   };
 }
 

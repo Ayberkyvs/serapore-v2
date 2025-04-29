@@ -97,14 +97,20 @@
         "description": "• Basınçlı Döküm Makinelerinde verimlilik artırma desteği, • Klasik Döküm Makinelerinde verimlilik artırma desteği, • Tüm üretim hatlarında verimlilik artırma destekleri"
       }
     },
-    "hintDescription": "Keşfetmek için sürükleyin, daha fazlasını görmek için tıklayın"
+    "hint": {
+      "description": "Keşfetmek için sürükleyin, daha fazlası için tıklayın",
+      "neverShowText": "Bir daha gösterme"
+    }
   },
   "HighlightedProducts": {
     "sectionHeading": {
       "title": "İmza Makinelerimiz",
       "subtitle": "Öne Çıkan Ürünler"
     },
-    "hintDescription": "Keşfetmek için sürükleyin"
+    "hint": {
+      "description": "Keşfetmek için sürükleyin",
+      "neverShowText": "Bir daha gösterme"
+    }
   },
   "ContactUsSection": {
     "sectionHeading": {
@@ -163,7 +169,6 @@
     "copyright": "SeraPore Makine Sanayi ve Ticaret Ltd. Şti., Tüm hakları saklıdır.",
     "poweredBy": "tarafından"
   },
-
   "AboutUs": {
     "hero": {
       "title": "Hakkımızda",
@@ -190,6 +195,12 @@
     "hero": {
       "title": "Galeri",
       "description": "SeraPore’un çalışmalarındaki kaliteyi ve yeniliği yakından inceleyin. Galerimizde basınçlı döküm kalıp ve makinelerimizin gerçek dünya uygulamaları, müşteri kurulumları, üretim mükemmeliyeti ve detaylı işçiliği yer almakta—yetkinliklerimizi ve başarı hikâyelerimizi görsel bir yolculukla sunmaktadır."
+    },
+    "videos": {
+      "sectionHeading": {
+        "title": "Çalışmalarımızı Aksiyonda Görün",
+        "subtitle": "Video Galerisi"
+      }
     }
   },
   "ContactUs": {
@@ -201,8 +212,8 @@
   "SEO": {
     "root": {
       "title": {
-        "template": "%s | Serapore TR",
-        "default": "Serapore TR"
+        "template": "%s | Serapore",
+        "default": "Serapore"
       },
       "description": "SeraPore Vitrifiye Makine ve Kalıpları, 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir. 1989'dan bu yana ekibimiz sürekli büyümüş ve gelişmiş, basınçlı döküm kalıpları ve basınçlı döküm makineleri üretiminde öncü bir rol üstlenmiştir. Bu geniş bilgi birikimi ve tecrübeyle 1.500'den fazla kalıp ve 35'ten fazla makine üretmiş bulunmaktayız. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, müşterilerimizi vitrifiye üretim sürecinin her aşamasında destekliyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunuyoruz.",
       "applicationName": "Serapore",
@@ -235,6 +246,55 @@
         "siteName": "Serapore",
         "title": "Serapore",
         "description": "SeraPore Vitrifiye Makine ve Kalıpları, 30 yılı aşkın deneyim ve uzmanlığa sahip bir ekibin liderliğinde faaliyet göstermektedir. 1989'dan bu yana ekibimiz sürekli büyümüş ve gelişmiş, basınçlı döküm kalıpları ve basınçlı döküm makineleri üretiminde öncü bir rol üstlenmiştir. Bu geniş bilgi birikimi ve tecrübeyle 1.500'den fazla kalıp ve 35'ten fazla makine üretmiş bulunmaktayız. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, müşterilerimizi vitrifiye üretim sürecinin her aşamasında destekliyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunuyoruz."
+      }
+    },
+
+    "home": {
+      "title": "Ana Sayfa",
+      "description": "SeraPore Vitrifiye Makine ve Kalıpları, alanda 30 yılı aşkın deneyime ve uzmanlığa sahip bir ekip tarafından yönetilmektedir. 1989'dan bu yana, ekibimiz sürekli olarak büyümüş ve evrilmiş, baskı döküm kalıpları ve baskı döküm makinelerinin üretiminde öncü bir rol oynamıştır. Bu geniş bilgi ve deneyimle, 1.500'ün üzerinde kalıp ve 35'ten fazla makineyi hayata geçirdik. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, müşterilerimize vitrifiye üretim sürecinin her aşamasında destek sunuyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunuyoruz.",
+      "openGraph": {
+        "title": "En Dayanıklı Üreticilerin Güvendiği Güç | Serapore",
+        "description": "SeraPore Vitrifiye Makine ve Kalıpları, alanda 30 yılı aşkın deneyime ve uzmanlığa sahip bir ekip tarafından yönetilmektedir. 1989'dan bu yana, ekibimiz sürekli olarak büyümüş ve evrilmiş, baskı döküm kalıpları ve baskı döküm makinelerinin üretiminde öncü bir rol oynamıştır. Bu geniş bilgi ve deneyimle, 1.500'ün üzerinde kalıp ve 35'ten fazla makineyi hayata geçirdik. Kalite, yenilik ve mükemmeliyeti benzersiz bir yaklaşımla birleştirerek, müşterilerimize vitrifiye üretim sürecinin her aşamasında destek sunuyoruz. Ürün tasarımından kalıp ve makine üretimine, hatta makine bakımına kadar geniş bir hizmet yelpazesi sunuyoruz."
+      }
+    },
+    "aboutus": {
+      "title": "Hakkımızda",
+      "description": "30 yılı aşkın sektör tecrübesiyle, SeraPore baskı döküm kalıpları ve makinelerinin üretiminde güvenilir bir lider olmuştur. Küresel seramik üreticilerinin gelişen taleplerini karşılayacak uzun ömürlü ve yüksek hassasiyetli ekipmanlar sunmakta uzmanlaşmışızdır. Yenilik, mühendislik mükemmeliyeti ve müşteri memnuniyeti konusundaki kararlılığımız, kim olduğumuzu ve ne yaptığımızı tanımlar.",
+      "openGraph": {
+        "title": "Hakkımızda | Serapore",
+        "description": "30 yılı aşkın sektör tecrübesiyle, SeraPore baskı döküm kalıpları ve makinelerinin üretiminde güvenilir bir lider olmuştur. Küresel seramik üreticilerinin gelişen taleplerini karşılayacak uzun ömürlü ve yüksek hassasiyetli ekipmanlar sunmakta uzmanlaşmışızdır. Yenilik, mühendislik mükemmeliyeti ve müşteri memnuniyeti konusundaki kararlılığımız, kim olduğumuzu ve ne yaptığımızı tanımlar."
+      }
+    },
+    "services": {
+      "title": "Hizmetler",
+      "description": "SeraPore, seramik endüstrisindeki üreticilerin ihtiyaçlarına yönelik kapsamlı profesyonel hizmetler sunmaktadır. Özel kalıp geliştirme ve makine optimizasyonundan kurulum, eğitim ve teknik desteğe kadar sunduğumuz çözümler, üretim verimliliğini artırmaya, kesinti sürelerini azaltmaya ve her üretim partisi boyunca tutarlı kaliteyi sağlamaya yöneliktir.",
+      "openGraph": {
+        "title": "Hizmetler | Serapore",
+        "description": "SeraPore, seramik endüstrisindeki üreticilerin ihtiyaçlarına yönelik kapsamlı profesyonel hizmetler sunmaktadır. Özel kalıp geliştirme ve makine optimizasyonundan kurulum, eğitim ve teknik desteğe kadar sunduğumuz çözümler, üretim verimliliğini artırmaya, kesinti sürelerini azaltmaya ve her üretim partisi boyunca tutarlı kaliteyi sağlamaya yöneliktir."
+      }
+    },
+    "products": {
+      "title": "Ürünler",
+      "description": "Ürün portföyümüz, yüksek performanslı baskı döküm kalıpları, dayanıklı makineler ve uzun süreli endüstriyel kullanım için tasarlanmış ileri düzey çözümleri içermektedir. Teslim ettiğimiz her ürün, hassas mühendislik, sorunsuz entegrasyon ve üstün dayanıklılık konusundaki taahhüdümüzü yansıtarak, üreticilerin operasyonlarını hızlandırmasına ve hızlı değişen bir pazarda rekabetçi kalmasına yardımcı olmaktadır.",
+      "openGraph": {
+        "title": "Ürünler | Serapore",
+        "description": "Ürün portföyümüz, yüksek performanslı baskı döküm kalıpları, dayanıklı makineler ve uzun süreli endüstriyel kullanım için tasarlanmış ileri düzey çözümleri içermektedir. Teslim ettiğimiz her ürün, hassas mühendislik, sorunsuz entegrasyon ve üstün dayanıklılık konusundaki taahhüdümüzü yansıtarak, üreticilerin operasyonlarını hızlandırmasına ve hızlı değişen bir pazarda rekabetçi kalmasına yardımcı olmaktadır."
+      }
+    },
+    "gallery": {
+      "title": "Galeri",
+      "description": "SeraPore'nin işindeki kalite ve yeniliğe daha yakından bakın. Galerimiz, baskı döküm kalıplarımızın ve makinelerimizin gerçek dünya uygulamalarını, müşteri kurulumlarını, üretim mükemmeliyetini ve detaylı işçiliği sergileyerek yeteneklerimizi ve başarı hikayelerimizi görsel bir yolculuğa çıkarıyor.",
+      "openGraph": {
+        "title": "Galeri | Serapore",
+        "description": "SeraPore'nin işindeki kalite ve yeniliğe daha yakından bakın. Galerimiz, baskı döküm kalıplarımızın ve makinelerimizin gerçek dünya uygulamalarını, müşteri kurulumlarını, üretim mükemmeliyetini ve detaylı işçiliği sergileyerek yeteneklerimizi ve başarı hikayelerimizi görsel bir yolculuğa çıkarıyor."
+      }
+    },
+    "contactus": {
+      "title": "İletişim",
+      "description": "Üretiminizi bir adım öteye taşımaya hazır mısınız? SeraPore'nin uzman ekibiyle projelerinizi tartışmak, teklif almak veya baskı döküm çözümlerimiz hakkında daha fazla bilgi edinmek için bizimle iletişime geçin. Kişisel rehberlik, teknik uzmanlık ve sektördeki lider yenilikle sizi desteklemek için buradayız.",
+      "openGraph": {
+        "title": "İletişim | Serapore",
+        "description": "Üretiminizi bir adım öteye taşımaya hazır mısınız? SeraPore'nin uzman ekibiyle projelerinizi tartışmak, teklif almak veya baskı döküm çözümlerimiz hakkında daha fazla bilgi edinmek için bizimle iletişime geçin. Kişisel rehberlik, teknik uzmanlık ve sektördeki lider yenilikle sizi desteklemek için buradayız."
       }
     }
   }
