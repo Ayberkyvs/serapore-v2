@@ -9,3 +9,15 @@ export type SectionHeadingProps = {
   subtitle?: string;
 };
 export type partnerLogosProps = string[];
+
+export type YoutubeVideo = {
+  id: string;
+  title: string;
+  url: string;
+  viewCountText: string;
+  thumbnails: {
+    url: string;
+    width: number;
+    height: number;
+  }[];
+};

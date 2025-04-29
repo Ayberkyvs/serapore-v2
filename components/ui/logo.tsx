@@ -12,6 +12,7 @@ const Logo = ({ className }: { className: string }) => {
           alt="Serapore Logo"
           fill
           className="object-fit"
+          draggable={false}
         />
       </div>
     </>
