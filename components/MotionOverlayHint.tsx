@@ -3,21 +3,33 @@
 import { motion, AnimatePresence, useInView } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 import { cn } from "../lib/utils";
+import { Button } from "./ui/button";
+import { EyeOff } from "lucide-react";
 
 export default function MotionOverlayHint({
   description,
+  neverShowText,
 }: {
   description: string;
+  neverShowText: string;
 }) {
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: true });
   const [visible, setVisible] = useState(false);
+  const [showPermission, setShowPermission] = useState(false);
 
   useEffect(() => {
-    if (isInView) {
-      setVisible(true);
-      const timer = setTimeout(() => setVisible(false), 2500);
-      return () => clearTimeout(timer);
+    const localShow = localStorage.getItem("showPermission");
+
+    if (localShow !== "false") {
+      setShowPermission(true);
+      localStorage.setItem("showPermission", "true");
+
+      if (isInView) {
+        setVisible(true);
+        const timer = setTimeout(() => setVisible(false), 10500);
+        return () => clearTimeout(timer);
+      }
     }
   }, [isInView]);
 
@@ -29,7 +41,7 @@ export default function MotionOverlayHint({
       })}
     >
       <AnimatePresence>
-        {visible && (
+        {visible && showPermission && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -49,6 +61,15 @@ export default function MotionOverlayHint({
               🤚
             </motion.div>
             <p className="text-sm opacity-90">{description}</p>
+            <Button
+              size="sm"
+              onClick={() => localStorage.setItem("showPermission", "false")}
+              className="absolute bottom-5 mt-4 text-blue-300 hover:text-bluesssssssssssssssssssssssss-400"
+              variant="link"
+            >
+              <EyeOff className="mr-px" />
+              {neverShowText}
+            </Button>
           </motion.div>
         )}
       </AnimatePresence>

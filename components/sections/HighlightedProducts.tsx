@@ -5,6 +5,7 @@ import HorizontalScroller from "../HorizontalScroller";
 import MotionOverlayHint from "../MotionOverlayHint";
 import { Wrench } from "lucide-react";
 import { Badge } from "../ui/badge";
+
 const HighlightedProducts = () => {
   const t = useTranslations("HighlightedProducts");
   //? get highlighted products from API
@@ -22,7 +23,10 @@ const HighlightedProducts = () => {
             </Badge>
           </div>
           <HorizontalScroller>
-            <MotionOverlayHint description={t("hintDescription")} />
+            <MotionOverlayHint
+              description={t("hint.description")}
+              neverShowText={t("hint.neverShowText")}
+            />
             <ProductCard className="min-w-[300px] w-[300px]" />
             <ProductCard className="min-w-[300px] w-[300px]" />
             <ProductCard className="min-w-[300px] w-[300px]" />

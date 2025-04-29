@@ -43,7 +43,10 @@ const OurServices = () => {
             subtitle={t("sectionHeading.subtitle")}
           />
           <HorizontalScroller>
-            <MotionOverlayHint description={t("hintDescription")} />
+            <MotionOverlayHint
+              description={t("hint.description")}
+              neverShowText={t("hint.neverShowText")}
+            />
             {cards.map((card, index) => (
               <VerticalGalleryCard
                 key={index}

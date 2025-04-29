@@ -15,6 +15,11 @@ jobs:
           node-version: "20"
       - run: npm install
       - run: npx prettier . --write
+      - run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(autoformat): apply Prettier formatting automatically" || echo "No changes to commit"
       - uses: autofix-ci/action@v1
         with:
           commit-message: "chore(autoformat): apply Prettier formatting automatically"
