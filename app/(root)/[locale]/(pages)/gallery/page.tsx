@@ -14,6 +14,8 @@ import { getTranslations } from "next-intl/server";
 import { urlFor } from "@/sanity/lib/image";
 import { ColorPalette, CompanyAssets, Photos } from "@/sanity/types";
 
+export const revalidate = 60;
+
 export async function generateMetadata({
   params,
 }: {
