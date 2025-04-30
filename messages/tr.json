@@ -201,6 +201,24 @@
         "title": "Çalışmalarımızı Aksiyonda Görün",
         "subtitle": "Video Galerisi"
       }
+    },
+    "photos": {
+      "sectionHeading": {
+        "title": "Atölyeden İç Görüntüler",
+        "subtitle": "Fotoğraf Galerisi"
+      }
+    },
+    "company": {
+      "sectionHeading": {
+        "title": "Marka Kaynakları",
+        "subtitle": "Şirket Varlıkları"
+      }
+    },
+    "color": {
+      "sectionHeading": {
+        "title": "Marka Renkleri",
+        "subtitle": "Renk Paleti"
+      }
     }
   },
   "ContactUs": {
@@ -296,6 +314,12 @@
         "title": "İletişim | Serapore",
         "description": "Üretiminizi bir adım öteye taşımaya hazır mısınız? SeraPore'nin uzman ekibiyle projelerinizi tartışmak, teklif almak veya baskı döküm çözümlerimiz hakkında daha fazla bilgi edinmek için bizimle iletişime geçin. Kişisel rehberlik, teknik uzmanlık ve sektördeki lider yenilikle sizi desteklemek için buradayız."
       }
+    }
+  },
+  "NotFound": {
+    "ProductNotFoundAlert": {
+      "title": "Ürün Bulunamadı!",
+      "description": "Şu anda mevcut ürün görünmüyor. Lütfen daha sonra tekrar kontrol edin veya başlamak için yeni ürünler ekleyin."
     }
   }
 }
