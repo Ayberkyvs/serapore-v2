@@ -1,4 +1,4 @@
-export async function GET(req: Request) {
+export async function GET() {
   try {
     const apiKey = process.env.X_RAPIDAPI_KEY!;
     const channelIdKey = process.env.CHANNEL_ID!;

@@ -32,7 +32,7 @@ const FadeIn: React.FC<FadeInProps> = ({
     none: { x: 0, y: 0 },
   };
 
-  // @ts-ignore
+  // @ts-expect-error
   const Comp = motion[as];
 
   return (

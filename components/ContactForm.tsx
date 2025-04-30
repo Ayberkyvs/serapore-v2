@@ -1,5 +1,5 @@
 "use client";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Input } from "@/components/ui/input";
@@ -26,7 +26,7 @@ type FormData = z.infer<typeof formSchema>;
 const onSubmit = async (
   data: FormData,
   setIsSubmitting: React.Dispatch<React.SetStateAction<boolean>>,
-  setSuccess: React.Dispatch<React.SetStateAction<boolean>>,
+  setSuccess: React.Dispatch<React.SetStateAction<boolean>>
 ) => {
   setIsSubmitting(true);
   try {

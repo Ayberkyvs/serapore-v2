@@ -7,7 +7,7 @@ import InfiniteCarouselSection from "./InfiniteCarouselSection";
 
 const Hero = () => {
   const t = useTranslations("Hero");
-  let heroTitle = t("title").split(" ");
+  const heroTitle = t("title").split(" ");
   const heroButtons = [
     {
       name: t("buttons.seeProducts"),
