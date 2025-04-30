@@ -28,6 +28,13 @@ export async function generateMetadata({
       title: t("openGraph.title"),
       description: t("openGraph.description"),
     },
+    alternates: {
+      canonical: "/gallery",
+      languages: {
+        en: "/en/gallery",
+        tr: "/tr/gallery",
+      },
+    },
   };
 }
 

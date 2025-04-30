@@ -21,6 +21,13 @@ export async function generateMetadata({
       title: t("openGraph.title"),
       description: t("openGraph.description"),
     },
+    alternates: {
+      canonical: "/contactus",
+      languages: {
+        en: "/en/contactus",
+        tr: "/tr/contactus",
+      },
+    },
   };
 }
 
