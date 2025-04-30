@@ -27,7 +27,7 @@ export default function MotionOverlayHint({
 
       if (isInView) {
         setVisible(true);
-        const timer = setTimeout(() => setVisible(false), 10500);
+        const timer = setTimeout(() => setVisible(false), 2000);
         return () => clearTimeout(timer);
       }
     }
