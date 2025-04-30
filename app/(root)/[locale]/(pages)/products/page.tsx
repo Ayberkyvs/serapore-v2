@@ -1,12 +1,17 @@
 import HighlightedProducts from "@/components/sections/HighlightedProducts";
 import ProductCard from "@/components/ProductCard";
 import SectionHeading from "@/components/SectionHeading";
-import { useTranslations } from "next-intl";
 import SectionHero from "@/components/sections/SectionHero";
 import BackgroundImageWrapper from "@/components/ui/background-image-wrapper";
 import CTA from "@/components/sections/CallToAction";
 import { getTranslations } from "next-intl/server";
 import { Metadata } from "next";
+import { client } from "@/sanity/lib/client";
+import { ALL_PRODUCTS_QUERY } from "@/sanity/lib/queries";
+import { Products } from "@/sanity/types";
+import ProductNotFoundAlert from "@/components/ProductNotFoundAlert";
+
+export const revalidate = 60;
 
 export async function generateMetadata({
   params,
@@ -25,15 +30,16 @@ export async function generateMetadata({
   };
 }
 
-const Page = () => {
-  const t = useTranslations("Products");
+const Page = async () => {
+  const t = await getTranslations("Products");
+  const products: Products[] = await client.fetch(ALL_PRODUCTS_QUERY);
   return (
     <>
       <SectionHero
         title={t("hero.title")}
         description={t("hero.description")}
       />
-      <BackgroundImageWrapper>
+      <BackgroundImageWrapper className="min-h-0">
         <HighlightedProducts />
       </BackgroundImageWrapper>
       <div className="all-products">
@@ -43,15 +49,13 @@ const Page = () => {
             subtitle={t("sectionHeading.subtitle")}
           />
           <div className="w-full grid items-center xs:items-start grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-5">
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
-            <ProductCard className="max-w-none xs:max-w-[250px] sm:max-w-[300px] w-full" />
+            {products && products.length > 0 ? (
+              products.map((product) => (
+                <ProductCard key={product._id} data={product} />
+              ))
+            ) : (
+              <ProductNotFoundAlert />
+            )}
           </div>
         </div>
         <CTA />

@@ -6,19 +6,12 @@ import { v4 as uuidv4 } from "uuid";
 type GallerySectionProps = {
   title: string;
   subtitle: string;
-  isLoading: boolean;
   children?: ReactNode;
 };
 
-const GallerySection = ({
-  title,
-  subtitle,
-  isLoading,
-  children,
-}: GallerySectionProps) => {
+const GallerySection = ({ title, subtitle, children }: GallerySectionProps) => {
   const isEmpty =
-    !children ||
-    (Array.isArray(children) && children.length === 0 && !isLoading);
+    !children || (Array.isArray(children) && children.length === 0);
 
   if (isEmpty) return null;
 
@@ -27,10 +20,8 @@ const GallerySection = ({
       <div className="inner-gallery-section w-full flex flex-col gap-5">
         <SectionHeading title={title} subtitle={subtitle} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {isLoading
-            ? [...Array(8)].map(() => (
-                <GalleryCardSkeleton key={uuidv4()} />
-              ))
+          {isEmpty
+            ? [...Array(8)].map(() => <GalleryCardSkeleton key={uuidv4()} />)
             : children}
         </div>
       </div>

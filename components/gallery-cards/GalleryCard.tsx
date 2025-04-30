@@ -8,18 +8,19 @@ const GalleryCard = ({
 }: {
   imageSrc: string;
   imageAlt: string;
-  url: string;
+  url?: string;
 }) => {
   return (
     <>
-      <Link href={url ?? ""}>
+      <Link href={url ?? ""} scroll={false}>
         <div className="group relative w-full max-w-[400px] aspect-video">
           <Image
             src={imageSrc ? imageSrc : "https://placehold.co/300x168"}
             fill
             alt={imageAlt ? imageAlt : "Gallery Card"}
+            className="bg-white object-contain"
           />
-          <div className="hidden group-hover:block absolute bottom-0 w-full h-fit small glass-effect bg-black/10 text-white p-2">
+          <div className="hidden group-hover:block absolute bottom-0 w-full h-fit small glass-effect bg-black/20 text-white p-2">
             {imageAlt}
           </div>
         </div>

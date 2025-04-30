@@ -1,42 +1,44 @@
-import Image from "next/image";
 import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Button } from "./ui/button";
 import { cn } from "../lib/utils";
-import Link from "next/link";
-const ProductCard = ({ className }: { className?: string }) => {
-  //? get product data via props
+import { Products } from "@/sanity/types";
+import { urlFor } from "@/sanity/lib/image";
+import { Badge } from "./ui/badge";
+
+const ProductCard = ({
+  className,
+  data,
+}: {
+  className?: string;
+  data: Products;
+}) => {
+  const { name, image, description, isHighlighted } = data;
   return (
     <>
       <Card className={cn("w-[300px] h-fit select-none", className)}>
-        <CardHeader>
+        <CardHeader className="relative">
           <img
-            src="https://placehold.co/252x141"
+            src={urlFor(image).url()}
             alt="Product Image"
-            className="aspect-video w-full h-fit object-cover"
+            className="aspect-video w-full h-auto object-cover"
           />
-          <CardTitle className="mt-2 text-primary-700">Product Name</CardTitle>
+          {isHighlighted && (
+            <Badge className="absolute top-2 left-8 !glass-effect !bg-yellow-500/50">
+              Highlighted Product
+            </Badge>
+          )}
+          <CardTitle className="mt-2 text-primary-700 break-all">
+            {name}
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <CardDescription>
-            Lorem ipsum dolor sit amet consectetur. Lobortis metus nisl maecenas
-            non eu ac aliquam id porta. A nunc nunc sit at lectus ut elementum
-            est. Facilisis id neque tortor a.
-          </CardDescription>
+          <CardDescription className="break-all">{description}</CardDescription>
         </CardContent>
-        <CardFooter>
-          <Link href="#">
-            <Button className="place-self-end hover:cursor-pointer">
-              Learn More
-            </Button>
-          </Link>
-        </CardFooter>
       </Card>
     </>
   );

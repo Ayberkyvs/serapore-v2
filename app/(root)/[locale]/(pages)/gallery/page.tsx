@@ -1,68 +1,96 @@
-"use client";
-import { useEffect, useState } from "react";
 import CTA from "@/components/sections/CallToAction";
 import SectionHero from "@/components/sections/SectionHero";
 import BackgroundImageWrapper from "@/components/ui/background-image-wrapper";
-import { useTranslations } from "next-intl";
 import GalleryCard from "@/components/gallery-cards/GalleryCard";
-import { YoutubeVideo } from "@/lib/types";
 import GallerySection from "@/components/sections/GallerySection";
+import { client } from "@/sanity/lib/client";
+import {
+  COLOR_PALETTE_QUERY,
+  COMPANY_ASSETS_QUERY,
+  PHOTOS_QUERY,
+} from "@/sanity/lib/queries";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { urlFor } from "@/sanity/lib/image";
+import { ColorPalette, CompanyAssets, Photos } from "@/sanity/types";
 
-const Page = () => {
-  const t = useTranslations("Gallery");
-  const [videos, setVideos] = useState<YoutubeVideo[]>([]);
-  const [videosLoading, setVideosLoading] = useState(true);
-  useEffect(() => {
-    const fetchVideos = async () => {
-      try {
-        const res = await fetch("/api/youtube");
-        const data = await res.json();
-        setVideos(data.videos || []);
-        setVideosLoading(false);
-      } catch (error) {
-        console.error("API'den veri alınamadı:", error);
-      }
-    };
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "SEO.gallery" });
+  return {
+    title: t("title"),
+    description: t("description"),
+    openGraph: {
+      title: t("openGraph.title"),
+      description: t("openGraph.description"),
+    },
+  };
+}
 
-    // fetchVideos();
-  }, []);
-
+const Page = async () => {
+  const t = await getTranslations("Gallery");
+  const [photos, company, color]: [Photos[], CompanyAssets[], ColorPalette[]] =
+    await Promise.all([
+      client.fetch(PHOTOS_QUERY),
+      client.fetch(COMPANY_ASSETS_QUERY),
+      client.fetch(COLOR_PALETTE_QUERY),
+    ]);
   return (
     <>
       <SectionHero
         title={t("hero.title")}
         description={t("hero.description")}
       />
-      <BackgroundImageWrapper>
+      <BackgroundImageWrapper className="min-h-0">
         <GallerySection
-          title={t("videos.sectionHeading.title")}
-          subtitle={t("videos.sectionHeading.subtitle")}
-          isLoading={videosLoading}
+          title={t("photos.sectionHeading.title")}
+          subtitle={t("photos.sectionHeading.subtitle")}
         >
-          {videos.map((video) => (
+          {photos.map((photos) => (
             <GalleryCard
-              key={video.url}
-              url={video.url}
-              imageSrc={video.thumbnails[3].url}
-              imageAlt={video.title}
+              key={photos._id}
+              url={photos.href || ""}
+              imageSrc={urlFor(photos.image).url()}
+              imageAlt={photos.name}
             />
           ))}
         </GallerySection>
       </BackgroundImageWrapper>
+      <GallerySection
+        title={t("company.sectionHeading.title")}
+        subtitle={t("company.sectionHeading.subtitle")}
+      >
+        {company.map((company) => (
+          <GalleryCard
+            key={company._id}
+            imageSrc={urlFor(company.image).url()}
+            imageAlt={company.name}
+          />
+        ))}
+      </GallerySection>
+      <GallerySection
+        title={t("color.sectionHeading.title")}
+        subtitle={t("color.sectionHeading.subtitle")}
+      >
+        {color.map((color) => (
+          <div
+            className="group relative w-full max-w-[400px] aspect-video"
+            key={color._id}
+            style={{ backgroundColor: color.hex }}
+          >
+            <div className="hidden group-hover:block absolute bottom-0 w-full h-fit small glass-effect bg-black/20 text-white p-2">
+              {color.name} {color.hex}
+            </div>
+          </div>
+        ))}
+      </GallerySection>
       <CTA />
     </>
   );
 };
 
 export default Page;
-
-// {
-//   videos.map((video, index) => (
-//     <GalleryCard
-//       key={index}
-//       url={video.url}
-//       imageSrc={video.thumbnails[3].url}
-//       imageAlt={video.title}
-//     />
-//   ));
-// }
