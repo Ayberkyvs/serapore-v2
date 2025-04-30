@@ -1,5 +1,5 @@
 import Header from "@/components/layout/Header";
-import { NextIntlClientProvider, hasLocale, useTranslations } from "next-intl";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/app/i18n/routing";
 import type { Metadata } from "next";
@@ -7,8 +7,8 @@ import { Geist, Inter } from "next/font/google";
 import "@/app/globals.css";
 import Footer from "@/components/layout/Footer";
 import MobileBottomMenu from "@/components/mobile-bottom-menu";
-import { useMenuItems } from "@/lib/hooks/useMenuItems";
 import { getTranslations } from "next-intl/server";
+import { getMenuItems } from "@/components/getMenuItems";
 
 const geistSans = Geist({
   variable: "--font-geist",
@@ -92,15 +92,16 @@ const RootLayout = async ({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+  const menuItems = await getMenuItems();
 
   return (
     <>
       <html lang={locale}>
         <meta name="apple-mobile-web-app-title" content="Serapore" />
         <body className={`${geistSans.variable} ${inter.variable} antialiased`}>
-          <Header />
+          <Header menuItems={menuItems} />
           <NextIntlClientProvider>{children}</NextIntlClientProvider>
-          <MobileBottomMenu />
+          <MobileBottomMenu menuItems={menuItems} />
           <Footer />
         </body>
       </html>

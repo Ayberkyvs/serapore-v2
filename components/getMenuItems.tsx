@@ -1,8 +1,10 @@
+import { getTranslations } from "next-intl/server";
 import { ImageIcon, Info, Mail, Settings, ShoppingBag } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { MenuItem } from "@/lib/types";
 
-export const useMenuItems = () => {
-  const t = useTranslations("Header");
+export async function getMenuItems(): Promise<MenuItem[]> {
+  const t = await getTranslations("Header");
+
   return [
     {
       path: "/aboutus",
@@ -35,4 +37,4 @@ export const useMenuItems = () => {
       icon: <Mail className="h-5 w-5" />,
     },
   ];
-};
+}

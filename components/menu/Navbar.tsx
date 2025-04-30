@@ -1,10 +1,12 @@
+"use client";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import LanguageSwitcher from "../LanguageSwitcher";
-import { useMenuItems } from "@/lib/hooks/useMenuItems";
+import { MenuItem } from "@/lib/types";
+import { useSlugPath } from "@/lib/hooks/useSlugPath";
 
-const Navbar = () => {
-  const menuItems = useMenuItems();
+const Navbar = ({ menuItems }: { menuItems: MenuItem[] }) => {
+  const pathname = useSlugPath();
   return (
     <>
       <nav className="navbar">
@@ -15,6 +17,8 @@ const Navbar = () => {
                 href={item.path.toLowerCase() ?? "#"}
                 className={cn("navbar__item", {
                   navbar__item__button: item.type === "button",
+                  "navbar__item__button--active":
+                    item.path.toLowerCase() === pathname.toLowerCase(),
                 })}
               >
                 {item.name}
