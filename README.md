@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <a href="https://serapore.com/" rel="noopener">
+    <img width="200" height="200" src="https://serapore.com/logo_main_en.webp" alt="SeraPore" style="background-color: black;">
+  </a>
+</p>
 
-## Getting Started
+<h3 align="center">SeraPore V2</h3>
+<h6 align="center">https://www.serapore.com</h6>
 
-First, run the development server:
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/Ayberkyvs/serapore-v2.svg)](https://github.com/Ayberkyvs/serapore-v2/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ayberkyvs/serapore-v2.svg)](https://github.com/Ayberkyvs/serapore-v2/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+---
+
+<p align="center">
+  SeraPore's official corporate website. A fast, SEO-friendly, and easily manageable platform.
+  <br>
+</p>
+
+## 📝 Table of Contents
+
+- [📝 Table of Contents](#-table-of-contents)
+- [🧐 About](#-about)
+- [🏁 Installation](#-installation)
+  - [Requirements](#requirements)
+  - [Installation Steps](#installation-steps)
+- [🚀 Deployment](#-deployment)
+- [🎈 Usage](#-usage)
+- [⛏️ Technologies](#️-technologies)
+- [📜 Packages Used](#-packages-used)
+  - [Dependencies](#dependencies)
+  - [Dev Dependencies](#dev-dependencies)
+- [🤝 Contribution](#-contribution)
+- [✍️ Authors](#️-authors)
+
+## 🧐 About
+
+For over 30 years, SeraPore has empowered leading manufacturers with high-performance molds and machinery known for their durability. With deep expertise in pressure casting, we deliver unmatched precision, reliability, and long-term value across every production line. This web project was built to represent SeraPore's digital presence in a modern, fast, and user-friendly way.
+
+## 🏁 Installation
+
+### Requirements
+
+- **Node.js** (v20+)
+- **PNPM** (v10+ recommended)
+- **Sanity CMS** account
+
+### Installation Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ayberkyvs/serapore-v2.git
+   cd serapore-v2
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Create and configure the environment variables in `.env`.
+
+4. Run in development mode:
+   ```bash
+   pnpm dev
+   ```
+
+## 🚀 Deployment
+
+To deploy for production:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm build
+pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or deploy the project via platforms like Vercel or Netlify.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎈 Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Manage content via **Sanity CMS**.
+- **Products, machines, and services** can be added dynamically.
+- Strong **SEO optimization** ensures high search engine visibility.
+- Use `typegen` commands for auto-generated types and content validation.
 
-## Learn More
+## ⛏️ Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15** – React-based web framework
+- **Sanity CMS** – Headless content management
+- **Tailwind CSS** – Utility-first styling
+- **Framer Motion** – Modern animations
+- **Radix UI** – Accessible UI components
+- **Vercel** – Hosting platform
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📜 Packages Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Dependencies
 
-## Deploy on Vercel
+- `next`, `react`, `react-dom` – Core framework
+- `sanity`, `next-sanity` – Headless CMS integration
+- `@radix-ui/react-*` – UI components
+- `framer-motion`, `styled-components` – Animation and CSS-in-JS
+- `lucide-react`, `uuid`, `clsx`, `tailwind-merge`, `zod` – Utility libraries
+- `next-intl`, `@formatjs/intl-localematcher`, `negotiator` – Internationalization and locale matching
+- `nodemailer` – Email handling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Dev Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `eslint`, `prettier`, `typescript` – Code quality and static analysis
+- `@tailwindcss/postcss` – Tailwind-compatible PostCSS config
+- `@types/*` – TypeScript type definitions
+
+## 🤝 Contribution
+
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push the branch (`git push origin feature-branch`)
+5. Submit a Pull Request.
+
+## ✍️ Authors
+
+- **[@Ayberkyvs](https://github.com/Ayberkyvs)** – Fullstack Developer
