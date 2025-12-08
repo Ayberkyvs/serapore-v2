@@ -58,5 +58,5 @@
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.20.0"
+  "packageManager": "pnpm@10.25.0"
 }

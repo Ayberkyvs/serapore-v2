@@ -6,7 +6,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   prettier:
@@ -17,21 +16,15 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
 
       - uses: pnpm/action-setup@v4
         with:
-          version: 10.20.0
+          version: 10
 
       - run: pnpm install
 
-      - run: pnpm prettier . --write
-
-      - run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "chore(autoformat): apply Prettier formatting automatically" || echo "No changes to commit"
+      - run: pnpm exec prettier . --write
 
       - uses: autofix-ci/action@v1
         with:
