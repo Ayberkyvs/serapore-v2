@@ -66,11 +66,11 @@ pnpm update nodemailer@^7.0.7
 The contact form API endpoint (`/app/api/contact/route.ts`) accepts user input and directly embeds it into an HTML email template without proper sanitization. While this is server-side rendered email content, unsanitized input could potentially lead to email client XSS vulnerabilities or email spoofing.
 
 **Vulnerable Code Locations**:
-- Line 52: `${name} ${lastname}` - Direct interpolation in HTML
-- Line 57: `${email}` - Direct interpolation in HTML
+- Lines 21, 52: `${name} ${lastname}` - Direct interpolation in HTML
+- Lines 57, 90, 91: `${email}` - Direct interpolation in HTML
 - Line 62: `${company || "N/A"}` - Direct interpolation in HTML
 - Line 67: `${services.join(", ")}` - Direct interpolation in HTML
-- Line 72: `${message.replace(/\n/g, "<br>")}` - Minimal sanitization
+- Line 72: `${message.replace(/\n/g, "<br>")}` - Minimal sanitization, converts newlines to breaks
 
 **Impact**:
 - Potential XSS in email clients that execute JavaScript
@@ -86,14 +86,27 @@ The contact form API endpoint (`/app/api/contact/route.ts`) accepts user input a
 
 **Example Fix**:
 ```typescript
-import { escape } from 'lodash'; // or use a dedicated HTML escape library
+// Option 1: Use a lightweight HTML escape library
+import escapeHtml from 'escape-html';
 
 // Sanitize all user inputs
-const sanitizedName = escape(name);
-const sanitizedLastname = escape(lastname);
-const sanitizedEmail = escape(email);
-const sanitizedCompany = escape(company || "N/A");
-const sanitizedMessage = escape(message).replace(/\n/g, "<br>");
+const sanitizedName = escapeHtml(name);
+const sanitizedLastname = escapeHtml(lastname);
+const sanitizedEmail = escapeHtml(email);
+const sanitizedCompany = escapeHtml(company || "N/A");
+const sanitizedMessage = escapeHtml(message).replace(/\n/g, "<br>");
+
+// Option 2: Use built-in browser API (if available in Node.js environment)
+function escapeHtml(text: string): string {
+  const map: { [key: string]: string } = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;'
+  };
+  return text.replace(/[&<>"']/g, (m) => map[m]);
+}
 ```
 
 ---
