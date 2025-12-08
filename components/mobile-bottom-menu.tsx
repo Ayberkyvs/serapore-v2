@@ -17,7 +17,7 @@ const MobileBottomMenu = ({ menuItems }: { menuItems: MenuItem[] }) => {
               "flex flex-col items-center justify-center w-full h-full rounded-xs",
               {
                 "bg-primary-50": pathname === item.path.toLowerCase(),
-              }
+              },
             )}
           >
             <div className="relative flex items-center justify-center w-10 h-10 rounded-full">

@@ -18,7 +18,7 @@ export default function generateSitemap(): MetadataRoute.Sitemap {
     routes.map((route) => ({
       url: `${baseUrl}/${locale}${route}`,
       lastModified: new Date(),
-    }))
+    })),
   );
 
   return paths;

@@ -65,7 +65,7 @@ export const products = defineType({
 
           const count = await client.fetch<number>(
             `count(*[_type == "products" && isHighlighted == true && _id != $id])`,
-            { id: docId }
+            { id: docId },
           );
 
           return count < 6 ? true : "En fazla 6 ürün öne çıkarılabilir.";
