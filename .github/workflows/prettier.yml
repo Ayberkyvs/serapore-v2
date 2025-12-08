@@ -1,25 +1,38 @@
 name: autofix.ci
+
 on:
   pull_request:
   push:
+
 permissions:
   contents: write
   pull-requests: write
+
 jobs:
   prettier:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - run: pnpm install
-      - run: pnpm exec prettier . --write
+
+      - run: pnpm prettier . --write
+
       - run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "chore(autoformat): apply Prettier formatting automatically" || echo "No changes to commit"
+
       - uses: autofix-ci/action@v1
         with:
           commit-message: "chore(autoformat): apply Prettier formatting automatically"
