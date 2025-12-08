@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Verified } from "lucide-react";
-import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import InfiniteCarouselSection from "./InfiniteCarouselSection";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
   const t = useTranslations("Hero");
