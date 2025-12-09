@@ -35,7 +35,7 @@ const LanguageSwitcher = () => {
 
   useEffect(() => {
     const localeFromPath = locales.find((locale) =>
-      pathname?.startsWith(`/${locale}`)
+      pathname?.startsWith(`/${locale}`),
     );
     if (localeFromPath) {
       setCurrentLocale(localeFromPath);

@@ -26,7 +26,7 @@ type FormData = z.infer<typeof formSchema>;
 const onSubmit = async (
   data: FormData,
   setIsSubmitting: React.Dispatch<React.SetStateAction<boolean>>,
-  setSuccess: React.Dispatch<React.SetStateAction<boolean>>
+  setSuccess: React.Dispatch<React.SetStateAction<boolean>>,
 ) => {
   setIsSubmitting(true);
   try {
