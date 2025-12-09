@@ -2,6 +2,7 @@ import "server-only";
 
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import escapeHtml from "escape-html";
 
 export async function POST(req: NextRequest) {
   const { name, lastname, email, company, message, services } =
@@ -18,9 +19,9 @@ export async function POST(req: NextRequest) {
   });
 
   const mailOptions = {
-    from: `"${name} ${lastname}" <${process.env.SMTP_USER}>`,
+    from: `"${escapeHtml(name)} ${escapeHtml(lastname)}" <${process.env.SMTP_USER}>`,
     to: process.env.MAIL_TO,
-    subject: `New Contact from ${name} | serapore.com`,
+    subject: `New Contact from ${escapeHtml(name)} | serapore.com`,
     html: `
 			<!DOCTYPE html>
 			<html lang="en">
@@ -49,27 +50,27 @@ export async function POST(req: NextRequest) {
 
 				<div style="margin-bottom: 20px; display: block;">
 					<span style="font-weight: 600; color: #103880; display: inline-block; width: 100px; padding-right: 16px;">Name:</span>
-					<span style="display: inline-block; color: #242424;">${name} ${lastname}</span>
+					<span style="display: inline-block; color: #242424;">${escapeHtml(name)} ${escapeHtml(lastname)}</span>
 				</div>
 
 				<div style="margin-bottom: 20px; display: block;">
 					<span style="font-weight: 600; color: #103880; display: inline-block; width: 100px; padding-right: 16px;">Email:</span>
-					<span style="display: inline-block; color: #242424;">${email}</span>
+					<span style="display: inline-block; color: #242424;">${escapeHtml(email)}</span>
 				</div>
 
 				<div style="margin-bottom: 20px; display: block;">
 					<span style="font-weight: 600; color: #103880; display: inline-block; width: 100px; padding-right: 16px;">Company:</span>
-					<span style="display: inline-block; color: #242424;">${company || "N/A"}</span>
+					<span style="display: inline-block; color: #242424;">${escapeHtml(company) || "N/A"}</span>
 				</div>
 
 				<div style="margin-bottom: 20px; display: block;">
 					<span style="font-weight: 600; color: #103880; display: inline-block; width: 100px; padding-right: 16px;">Services:</span>
-					<span style="display: inline-block; color: #242424;">${services.join(", ")}</span>
+					<span style="display: inline-block; color: #242424;">${services.map(escapeHtml).join(", ")}</span>
 				</div>
 
 				<div style="margin-bottom: 20px; display: block;">
 					<span style="font-weight: 600; color: #103880; display: inline-block; width: 100px; padding-right: 16px; vertical-align: top;">Message:</span>
-					<div style="background-color: #e1eafb; padding: 20px; border-radius: 10px; margin-top: 8px; white-space: pre-line; border-left: 4px solid #f4a534; display: block;">${message.replace(/\n/g, "<br>")}</div>
+					<div style="background-color: #e1eafb; padding: 20px; border-radius: 10px; margin-top: 8px; white-space: pre-line; border-left: 4px solid #f4a534; display: block;">${escapeHtml(message.replace(/\n/g, "<br>"))}</div>
 				</div>
 				</div>
 
@@ -92,13 +93,15 @@ export async function POST(req: NextRequest) {
   };
 
   try {
+    const ready = await transporter.verify();
+    if (!ready) throw new Error("SMTP server not ready");
     await transporter.sendMail(mailOptions);
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error(error);
     return NextResponse.json(
       { error: "Failed to send email" },
-      { status: 500 },
+      { status: 500 }
     );
   }
 }

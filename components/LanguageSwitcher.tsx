@@ -7,6 +7,7 @@ import {
   SelectItem,
   SelectValue,
 } from "@/components/ui/select";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -16,10 +17,12 @@ const FlagIcon = ({ lang }: { lang: string }) => {
   const flagSrc =
     lang === "en" ? "/media/flags/en-US.svg" : "/media/flags/tr-TR.svg";
   return (
-    <img
+    <Image
       src={flagSrc}
-      alt={`${lang} flag`}
+      alt={`Switch to ${lang === "en" ? "English" : "Turkish"}`}
       className="size-4 rounded-full object-cover object-left"
+      width={16}
+      height={16}
     />
   );
 };
@@ -32,7 +35,7 @@ const LanguageSwitcher = () => {
 
   useEffect(() => {
     const localeFromPath = locales.find((locale) =>
-      pathname?.startsWith(`/${locale}`),
+      pathname?.startsWith(`/${locale}`)
     );
     if (localeFromPath) {
       setCurrentLocale(localeFromPath);
@@ -50,12 +53,12 @@ const LanguageSwitcher = () => {
   return (
     <div className="h-full">
       <Select value={currentLocale} onValueChange={handleChange}>
-        <SelectTrigger className="w-fit border-0 !bg-transparent">
+        <SelectTrigger className="w-fit border-0 bg-transparent!">
           <SelectValue>
             <FlagIcon lang={currentLocale} />
           </SelectValue>
         </SelectTrigger>
-        <SelectContent className="h-fit z-[99]">
+        <SelectContent className="h-fit z-99">
           {locales.map((locale, index: number) => (
             <SelectItem
               key={index}

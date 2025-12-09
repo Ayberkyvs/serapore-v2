@@ -4,25 +4,18 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   images: {
-    dangerouslyAllowSVG: true,
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "placehold.co",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "i.ytimg.com",
-        port: "",
-        pathname: "/**",
-      },
       {
         protocol: "https",
         hostname: "cdn.sanity.io",
         port: "",
         pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "ayberkyavas.com",
+        port: "",
+        pathname: "/*",
       },
     ],
   },

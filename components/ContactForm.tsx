@@ -26,7 +26,7 @@ type FormData = z.infer<typeof formSchema>;
 const onSubmit = async (
   data: FormData,
   setIsSubmitting: React.Dispatch<React.SetStateAction<boolean>>,
-  setSuccess: React.Dispatch<React.SetStateAction<boolean>>,
+  setSuccess: React.Dispatch<React.SetStateAction<boolean>>
 ) => {
   setIsSubmitting(true);
   try {
@@ -89,7 +89,7 @@ export default function ContactForm() {
 
   const handleFormSubmit = (data: FormData) => {
     if (submitCount >= 2) {
-      alert("You can only submit the form twice a day.");
+      alert("You can only submit the form once a day.");
       return;
     }
     if (isSubmitting) return;
@@ -214,7 +214,7 @@ export default function ContactForm() {
       </Button>
       {submitCount >= 2 && (
         <p className="text-red-500 text-xs mt-1">
-          You can only submit the form twice a day.
+          You can only submit the form once a day.
         </p>
       )}
       {success && (

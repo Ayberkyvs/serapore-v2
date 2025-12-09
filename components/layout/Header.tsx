@@ -10,7 +10,7 @@ const Header = ({ menuItems }: { menuItems: MenuItem[] }) => {
       <header className="header">
         <div className="flex justify-between items-center inner-header h-full">
           <Link href="/">
-            <Logo className="w-[140px] h-[39px] xs:w-[170px] xs:h-[48px]" />
+            <Logo className="w-[140px] h-[39px] xs:w-[170px] xs:h-12" />
           </Link>
           <Navbar menuItems={menuItems} />
         </div>

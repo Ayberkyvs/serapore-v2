@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function OverlappingCards() {
   const [isHovered, setIsHovered] = useState(false);
@@ -43,7 +44,7 @@ export default function OverlappingCards() {
 
   return (
     <div
-      className="relative mx-auto my-20 size-[320px] xs:size-[450px]"
+      className="relative mx-auto my-20 size-80 xs:size-[450px]"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

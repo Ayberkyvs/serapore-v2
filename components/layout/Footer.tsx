@@ -116,12 +116,12 @@ const Footer = () => {
           </div>
           <div className="flex justify-between w-full border-t py-6 border-neutral-300">
             <Link href="/" scroll>
-              <Logo className="w-[140px] h-[39px] xs:w-[170px] xs:h-[48px]" />
+              <Logo className="w-[140px] h-[39px] xs:w-[170px] xs:h-12" />
             </Link>
             <LanguageSwitcher />
           </div>
-          <div className="flex justify-between w-full h-fit flex-wrap gap-5 bg-accent-200 p-2 rounded-sm">
-            <p className="small">
+          <div className="flex justify-between w-full h-fit flex-wrap gap-5 bg-accent-200 px-4 py-3 rounded-sm items-center">
+            <p className="small text-foreground/80">
               ©{" "}
               <span className="small underline">
                 {new Date().getFullYear()}
@@ -129,13 +129,12 @@ const Footer = () => {
               {t("copyright")}
             </p>
             <p className="small flex gap-2 items-center">
-              {t("poweredBy")}{" "}
               <Link href={"https://ayberkyavas.com"} target="_blank">
-                <img
-                  src="https://ayberkyavas.com/logo.svg"
+                <Image
+                  src="https://ayberkyavas.com/logo_embed.png"
                   alt="Ayberk Yavas Logo"
-                  width={68}
-                  height={16}
+                  width={80}
+                  height={25}
                   className="brightness-0"
                 />
               </Link>
